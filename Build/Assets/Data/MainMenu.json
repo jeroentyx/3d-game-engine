@@ -1,0 +1,322 @@
+{
+    "NumOfEntities": [
+        {
+            "EntityID": "MainMenu",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 2.0,
+                            "y": 2.0,
+                            "z": 2.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": "main_menu_no_ui.png"
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 4,
+                    "Properties": [
+                        {
+                            "name": "Script_Component/ModuleName",
+                            "type": "string",
+                            "Script_Component/ModuleName": "MainMenu.cs"
+                        },
+                        {
+                            "name": "Script_Component/Active",
+                            "type": "bool",
+                            "Script_Component/Active": true
+                        },
+                        {
+                            "name": "Script_Component/ScripRef",
+                            "type": "ScripRef",
+                            "ScriptName": "MainMenu.cs",
+                            "StoredFields": [
+                                {
+                                    "name": "val",
+                                    "typename": "System.Single",
+                                    "type": 3,
+                                    "data": 0.0
+                                },
+                                {
+                                    "name": "vol",
+                                    "typename": "System.Single",
+                                    "type": 3,
+                                    "data": 0.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 8,
+                    "Properties": []
+                }
+            ]
+        },
+        {
+            "EntityID": "BlackScreen",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": false,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -1.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 2.0,
+                            "y": 2.0,
+                            "z": 0.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 0.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "GameTitle",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.4099999964237213,
+                            "y": 0.4399999976158142,
+                            "z": -1.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": "main_menu_title.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "GameText",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.41999998688697817,
+                            "y": -0.5099999904632568,
+                            "z": -1.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 0.25,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": "main_menu_text.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "lvl1loadingScreen",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 2.0,
+                            "y": 2.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": "Loading bkgd lv1.png"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

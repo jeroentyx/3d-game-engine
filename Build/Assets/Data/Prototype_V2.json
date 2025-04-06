@@ -1,0 +1,92 @@
+{
+    "NumOfEntities": [
+        {
+            "EntityID": "Point Light",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 1.1100000143051148,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 0.25,
+                            "y": 0.25,
+                            "z": 0.25
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 3,
+                    "Properties": [
+                        {
+                            "name": "Light_Component/Color",
+                            "type": "vector3",
+                            "x": 10.0,
+                            "y": 10.0,
+                            "z": 10.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "Entity 1",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.634270191192627,
+                            "y": -0.04591423273086548,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 5,
+                    "Properties": [
+                        {
+                            "name": "Static_Mesh_Component/directory",
+                            "type": "string",
+                            "Static_Mesh_Component/directory": "M01_T04_ArtGym.fbx"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

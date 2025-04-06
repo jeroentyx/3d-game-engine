@@ -1,0 +1,606 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\dependencies\imgui-1.84.2\imgui.cpp" />
+    <ClCompile Include="..\dependencies\imgui-1.84.2\ImGuiFileBrowser.cpp" />
+    <ClCompile Include="..\dependencies\imgui-1.84.2\imgui_demo.cpp" />
+    <ClCompile Include="..\dependencies\imgui-1.84.2\imgui_draw.cpp" />
+    <ClCompile Include="..\dependencies\imgui-1.84.2\imgui_impl_glfw.cpp" />
+    <ClCompile Include="..\dependencies\imgui-1.84.2\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="..\dependencies\imgui-1.84.2\imgui_stdlib.cpp" />
+    <ClCompile Include="..\dependencies\imgui-1.84.2\imgui_tables.cpp" />
+    <ClCompile Include="..\dependencies\imgui-1.84.2\imgui_widgets.cpp" />
+    <ClCompile Include="..\dependencies\ImGuizmo\ImCurveEdit.cpp" />
+    <ClCompile Include="..\dependencies\ImGuizmo\ImGradient.cpp" />
+    <ClCompile Include="..\dependencies\ImGuizmo\ImGuizmo.cpp" />
+    <ClCompile Include="..\dependencies\ImGuizmo\ImSequencer.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\bitmap-blit.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\charset-parser.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\Charset.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\csv-export.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\FontGeometry.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\glyph-generators.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\GlyphGeometry.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\image-encode.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\json-export.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\RectanglePacker.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\shadron-preview-generator.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\size-selectors.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\TightAtlasPacker.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\utf8.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\Workload.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\contour-combiners.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\Contour.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\edge-coloring.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\edge-segments.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\edge-selectors.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\EdgeHolder.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\equation-solver.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\msdf-error-correction.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\MSDFErrorCorrection.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\msdfgen.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\Projection.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\rasterization.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\render-sdf.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\save-bmp.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\save-tiff.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\Scanline.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\sdf-error-estimation.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\shape-description.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\Shape.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\SignedDistance.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\Vector2.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\ext\import-font.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\ext\import-svg.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\ext\resolve-shape-geometry.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\ext\save-png.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\lib\lodepng.cpp" />
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\lib\tinyxml2.cpp" />
+    <ClCompile Include="..\dependencies\tracy\TracyClient.cpp" />
+    <ClCompile Include="..\Src\Engine\Components\Billboard\BillboardComponent.cpp" />
+    <ClCompile Include="..\Src\Engine\Components\Camera\CameraComponent.cpp" />
+    <ClCompile Include="..\Src\Engine\Components\Font\FontComponent.cpp" />
+    <ClCompile Include="..\Src\Engine\Components\glslprogram.cpp" />
+    <ClCompile Include="..\Src\Engine\Components\glutils.cpp" />
+    <ClCompile Include="..\Src\Engine\Components\grid.cpp" />
+    <ClCompile Include="..\Src\Engine\Components\GUIComponent.cpp" />
+    <ClCompile Include="..\Src\Engine\Components\Itexture.cpp" />
+    <ClCompile Include="..\Src\Engine\Components\LightComponent.cpp" />
+    <ClCompile Include="..\Src\Engine\Components\Mesh\AnimatedMeshComponent.cpp" />
+    <ClCompile Include="..\Src\Engine\Components\Mesh\MeshComponent.cpp" />
+    <ClCompile Include="..\Src\Engine\Components\Mesh\StaticMeshComponent.cpp" />
+    <ClCompile Include="..\Src\Engine\Components\Particle.cpp" />
+    <ClCompile Include="..\Src\Engine\Components\ParticleComponent.cpp" />
+    <ClCompile Include="..\Src\Engine\Components\Particlehelper.cpp" />
+    <ClCompile Include="..\Src\Engine\Components\Script\ScriptComponent.cpp" />
+    <ClCompile Include="..\Src\Engine\Components\Skybox\SkyboxComponent.cpp" />
+    <ClCompile Include="..\Src\Engine\Components\SmokeComponent.cpp" />
+    <ClCompile Include="..\Src\Engine\Components\Transform\TransformComponent.cpp" />
+    <ClCompile Include="..\Src\Engine\Components\UI\UI_Sprite2DComponent.cpp" />
+    <ClCompile Include="..\Src\Engine\Core\Manager\AssetManager.cpp" />
+    <ClCompile Include="..\Src\Engine\Core\Manager\ComponentManager.cpp" />
+    <ClCompile Include="..\Src\Engine\Core\Manager\EntityManager.cpp" />
+    <ClCompile Include="..\Src\Engine\Core\Manager\HashAssetManager.cpp" />
+    <ClCompile Include="..\Src\Engine\Core\Manager\HistoryManager.cpp" />
+    <ClCompile Include="..\Src\Engine\Core\Manager\PrefabManager.cpp" />
+    <ClCompile Include="..\Src\Engine\Core\Manager\SceneManager.cpp" />
+    <ClCompile Include="..\Src\Engine\Core\Manager\SystemManager.cpp" />
+    <ClCompile Include="..\Src\Engine\Engine\CoreManager.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Audio\Audio_System.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Animation\AnimationSM.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Animation\AnimPose.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Animation\AnimStateMachine.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Animation\AnimStates.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Compiler\AnimationCompiler.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Compiler\FontCompiler.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Compiler\MeshLoader.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Compiler\Textureloader.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\EosRenderer\EosEditorResources.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\EosRenderer\EosFramebuffer.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\EosRenderer\EosMeshData.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\EosRenderer\EosTexture2D.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\EosRenderer\FileWatcher.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\EosRenderer\TestMesh.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\EosRenderer\TestModel.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\EosRenderer\TestShader.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\EosRenderer\TestSkyBox.cpp" />
+    <ClCompile Include="..\Src\Engine\Frameworks\FileManager\FileManager.cpp" />
+    <ClCompile Include="..\Src\Engine\Frameworks\Logger\Logger.cpp" />
+    <ClCompile Include="..\Src\Engine\Frameworks\Serialization\ISerializable.cpp" />
+    <ClCompile Include="..\Src\Engine\Frameworks\Serialization\Reader.cpp" />
+    <ClCompile Include="..\Src\Engine\Frameworks\Serialization\SerializeManager.cpp" />
+    <ClCompile Include="..\Src\Engine\Frameworks\Serialization\Writer.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Font\Font.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Graphics_System.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Importer\AssimpLoader.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Mesh\Mesh.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Platform\OpenGLFramebuffer.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Platform\OpenGLTexture.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Renderer\Camera\Camera.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Renderer\Framebuffer.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Renderer\Renderer.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Renderer\Renderer2D.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Renderer\Texture.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\stb_image.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\UIElements.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Logic\Fields.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Logic\MonoUtils.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Logic\ScriptingSystem.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Logic\ScriptRegistry.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Logic\ScriptWrappers.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Platform\OpenGLBuffer.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Platform\OpenGLRendererAPI.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Platform\OpenGLVertexArray.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Renderer\Buffer.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Renderer\Camera\PerspectiveCamera.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Renderer\RenderCommand.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Renderer\Renderer3D.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Renderer\RendererAPI.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Renderer\VertexArray.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Shader.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Physics\CollisionManager.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Physics\Cube.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Physics\IShape.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Physics\Island.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Physics\Manifold.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Physics\Physics_System.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Physics\RigidBody.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Physics\Scene.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\Physics\Square.cpp" />
+    <ClCompile Include="..\Src\Engine\Systems\UI\UI_System.cpp" />
+    <ClCompile Include="..\Src\EntryPoint.cpp" />
+    <ClCompile Include="..\Src\Events\BaseObserver.cpp" />
+    <ClCompile Include="..\Src\Events\GlfwHelpers.cpp" />
+    <ClCompile Include="..\Src\ImGui\AnimationWindow.cpp" />
+    <ClCompile Include="..\Src\Events\ListOfCommands.cpp" />
+    <ClCompile Include="..\Src\ImGui\AudioManager.cpp" />
+    <ClCompile Include="..\Src\ImGui\Context.cpp" />
+    <ClCompile Include="..\Src\ImGui\DebugDataWindow.cpp" />
+    <ClCompile Include="..\Src\ImGui\DepthWindow.cpp" />
+    <ClCompile Include="..\Src\ImGui\FileWindow.cpp" />
+    <ClCompile Include="..\Src\ImGui\GameScreenWindow.cpp" />
+    <ClCompile Include="..\Src\ImGui\GfxGui.cpp" />
+    <ClCompile Include="..\Src\ImGui\GraphicWindow.cpp" />
+    <ClCompile Include="..\Src\ImGui\IImGuiWindow.cpp" />
+    <ClCompile Include="..\Src\ImGui\ImGuiManager.cpp" />
+    <ClCompile Include="..\Src\ImGui\InspectorWindow.cpp" />
+    <ClCompile Include="..\Src\ImGui\LoggerWindow.cpp" />
+    <ClCompile Include="..\Src\ImGui\MaterialCompiler.cpp" />
+    <ClCompile Include="..\Src\ImGui\MousePicking.cpp" />
+    <ClCompile Include="..\Src\ImGui\SceneHierachy.cpp" />
+    <ClCompile Include="..\Src\ImGui\Sequencer.cpp" />
+    <ClCompile Include="..\Src\ImGui\UIWindow.cpp" />
+    <ClCompile Include="..\Src\ImGui\UISceneWindow.cpp" />
+    <ClCompile Include="..\Src\Inputs\Inputs.cpp" />
+    <ClCompile Include="..\Src\Profiler\FrameRate.cpp" />
+    <ClCompile Include="..\Tools\FixedTimer.cpp" />
+    <ClCompile Include="..\Tools\GraphicHelper.cpp" />
+    <ClCompile Include="..\Tools\Timer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\dependencies\imgui-1.84.2\imconfig.h" />
+    <ClInclude Include="..\dependencies\imgui-1.84.2\imgui.h" />
+    <ClInclude Include="..\dependencies\imgui-1.84.2\ImGuiFileBrowser.h" />
+    <ClInclude Include="..\dependencies\imgui-1.84.2\imgui_impl_glfw.h" />
+    <ClInclude Include="..\dependencies\imgui-1.84.2\imgui_impl_opengl3.h" />
+    <ClInclude Include="..\dependencies\imgui-1.84.2\imgui_impl_opengl3_loader.h" />
+    <ClInclude Include="..\dependencies\imgui-1.84.2\imgui_internal.h" />
+    <ClInclude Include="..\dependencies\imgui-1.84.2\imgui_stdlib.h" />
+    <ClInclude Include="..\dependencies\imgui-1.84.2\imstb_rectpack.h" />
+    <ClInclude Include="..\dependencies\imgui-1.84.2\imstb_textedit.h" />
+    <ClInclude Include="..\dependencies\imgui-1.84.2\imstb_truetype.h" />
+    <ClInclude Include="..\dependencies\ImGuizmo\ImCurveEdit.h" />
+    <ClInclude Include="..\dependencies\ImGuizmo\ImGradient.h" />
+    <ClInclude Include="..\dependencies\ImGuizmo\ImGuizmo.h" />
+    <ClInclude Include="..\dependencies\ImGuizmo\ImSequencer.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\AtlasGenerator.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\AtlasStorage.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\bitmap-blit.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\BitmapAtlasStorage.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\BitmapAtlasStorage.hpp" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\Charset.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\csv-export.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\DynamicAtlas.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\DynamicAtlas.hpp" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\FontGeometry.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\glyph-generators.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\GlyphBox.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\GlyphGeometry.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\image-encode.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\image-save.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\image-save.hpp" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\ImmediateAtlasGenerator.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\ImmediateAtlasGenerator.hpp" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\json-export.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\msdf-atlas-gen.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\rectangle-packing.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\rectangle-packing.hpp" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\Rectangle.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\RectanglePacker.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\Remap.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\shadron-preview-generator.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\size-selectors.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\TightAtlasPacker.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\types.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\utf8.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\Workload.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\arithmetics.hpp" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\bitmap-interpolation.hpp" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\Bitmap.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\Bitmap.hpp" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\BitmapRef.hpp" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\contour-combiners.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\Contour.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\edge-coloring.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\edge-segments.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\edge-selectors.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\EdgeColor.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\EdgeHolder.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\equation-solver.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\generator-config.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\msdf-error-correction.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\MSDFErrorCorrection.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\pixel-conversion.hpp" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\Projection.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\rasterization.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\render-sdf.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\save-bmp.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\save-tiff.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\Scanline.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\sdf-error-estimation.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\shape-description.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\Shape.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\ShapeDistanceFinder.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\ShapeDistanceFinder.hpp" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\SignedDistance.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\Vector2.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\ext\import-font.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\ext\import-svg.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\ext\resolve-shape-geometry.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\ext\save-png.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\include\lodepng.h" />
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\include\tinyxml2.h" />
+    <ClInclude Include="..\Src\Engine\ComponentSystemID.h" />
+    <ClInclude Include="..\Src\Engine\Components\Billboard\BillboardComponent.h" />
+    <ClInclude Include="..\Src\Engine\Components\Camera\CameraComponent.h" />
+    <ClInclude Include="..\Src\Engine\Components\Font\FontComponent.h" />
+    <ClInclude Include="..\Src\Engine\Components\drawable.h" />
+    <ClInclude Include="..\Src\Engine\Components\glslprogram.h" />
+    <ClInclude Include="..\Src\Engine\Components\glutils.h" />
+    <ClInclude Include="..\Src\Engine\Components\grid.h" />
+    <ClInclude Include="..\Src\Engine\Components\GUIComponent.h" />
+    <ClInclude Include="..\Src\Engine\Components\Irandom.h" />
+    <ClInclude Include="..\Src\Engine\Components\IScene.h" />
+    <ClInclude Include="..\Src\Engine\Components\Itexture.h" />
+    <ClInclude Include="..\Src\Engine\Components\LightComponent.h" />
+    <ClInclude Include="..\Src\Engine\Components\Mesh\AnimatedMeshComponent.h" />
+    <ClInclude Include="..\Src\Engine\Components\Mesh\MeshComponent.h" />
+    <ClInclude Include="..\Src\Engine\Components\Mesh\StaticMeshComponent.h" />
+    <ClInclude Include="..\Src\Engine\Components\Particle.h" />
+    <ClInclude Include="..\Src\Engine\Components\ParticleComponent.h" />
+    <ClInclude Include="..\Src\Engine\Components\Particlehelper.h" />
+    <ClInclude Include="..\Src\Engine\Components\Script\ScriptComponent.h" />
+    <ClInclude Include="..\Src\Engine\Components\Skybox\SkyboxComponent.h" />
+    <ClInclude Include="..\Src\Engine\Components\SmokeComponent.h" />
+    <ClInclude Include="..\Src\Engine\Components\Transform\TransformComponent.h" />
+    <ClInclude Include="..\Src\Engine\Components\UI\UI_Sprite2DComponent.h" />
+    <ClInclude Include="..\Src\Engine\Core\Interfaces\IComponent.h" />
+    <ClInclude Include="..\Src\Engine\Core\Interfaces\ISystem.h" />
+    <ClInclude Include="..\Src\Engine\Core\Manager\AssetManager.h" />
+    <ClInclude Include="..\Src\Engine\Core\Manager\ComponentCreator.h" />
+    <ClInclude Include="..\Src\Engine\Core\Manager\ComponentManager.h" />
+    <ClInclude Include="..\Src\Engine\Core\Manager\EntityID.h" />
+    <ClInclude Include="..\Src\Engine\Core\Manager\EntityManager.h" />
+    <ClInclude Include="..\Src\Engine\Core\Manager\HashAssetManager.hpp" />
+    <ClInclude Include="..\Src\Engine\Core\Manager\HashEntry.hpp" />
+    <ClInclude Include="..\Src\Engine\Core\Manager\HashMap.hpp" />
+    <ClInclude Include="..\Src\Engine\Core\Manager\HistoryManager.h" />
+    <ClInclude Include="..\Src\Engine\Core\Manager\PrefabManager.h" />
+    <ClInclude Include="..\Src\Engine\Core\Manager\SceneManager.h" />
+    <ClInclude Include="..\Src\Engine\Core\Manager\SystemManager.h" />
+    <ClInclude Include="..\Src\Engine\Core\Manager\UndoCommand.h" />
+    <ClInclude Include="..\Src\Engine\Core\Memory\MemoryManager.h" />
+    <ClInclude Include="..\Src\Engine\Engine\CoreManager.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Audio\Audio_System.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Animation\AnimationSM.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Animation\AnimationWrapModes.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Animation\AnimPose.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Animation\AnimStateMachine.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Animation\AnimStates.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Animation\IStates.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Animation\StateMachineBase.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Compiler\AnimationCompiler.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Compiler\FontCompiler.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Compiler\MeshLoader.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Compiler\TextureLoader.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\EosRenderer\EosEditorResources.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\EosRenderer\EosFramebuffer.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\EosRenderer\EosMaterial.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\EosRenderer\EosMeshData.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\EosRenderer\EosTexture2D.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\EosRenderer\FileWatcher.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\EosRenderer\ForceGraphicCard.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\EosRenderer\ParserFlags.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\EosRenderer\TestMesh.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\EosRenderer\TestModel.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\EosRenderer\TestShader.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\EosRenderer\TestSkyBox.h" />
+    <ClInclude Include="..\Src\Engine\Frameworks\FileManager\FileManager.hpp" />
+    <ClInclude Include="..\Src\Engine\Frameworks\Logger\Logger.h" />
+    <ClInclude Include="..\Src\Engine\Frameworks\Serialization\ISerializable.h" />
+    <ClInclude Include="..\Src\Engine\Frameworks\Serialization\Reader.h" />
+    <ClInclude Include="..\Src\Engine\Frameworks\Serialization\SerializeManager.h" />
+    <ClInclude Include="..\Src\Engine\Frameworks\Serialization\Writer.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\EosRenderer\tinyddsloader.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Font\Font.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Graphics_System.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Importer\AssimpLoader.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Mesh\Mesh.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Platform\OpenGLFramebuffer.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Platform\OpenGLTexture.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Renderer\Camera\Camera.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Renderer\Framebuffer.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Renderer\OpenglUITexture.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Renderer\Renderer.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Renderer\Renderer2D.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Renderer\Texture.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\UIElements.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Logic\Fields.hpp" />
+    <ClInclude Include="..\Src\Engine\Systems\Logic\MonoUtils.hpp" />
+    <ClInclude Include="..\Src\Engine\Systems\Logic\ScriptData.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Logic\ScriptingSystem.hpp" />
+    <ClInclude Include="..\Src\Engine\Systems\Logic\ScriptRegistry.hpp" />
+    <ClInclude Include="..\Src\Engine\Systems\Logic\ScriptWrappers.hpp" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Platform\OpenGLBuffer.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Platform\OpenGLRendererAPI.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Platform\OpenGLVertexArray.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Renderer\Buffer.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Renderer\Camera\PerspectiveCamera.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Renderer\RenderCommand.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Renderer\Renderer3D.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Renderer\RendererAPI.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Renderer\VertexArray.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Shader.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Tools\Model.h" />
+    <ClInclude Include="..\Src\Engine\Systems\NativeScript\NativeScriptingSystem.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Physics\BodyType.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Physics\ColliderBox.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Physics\CollisionManager.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Physics\CollisionType.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Physics\Cube.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Physics\FixedPhysicsValues.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Physics\IAABB.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Physics\IShape.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Physics\Island.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Physics\Manifold.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Physics\Math.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Physics\ObjectType.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Physics\Physics_System.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Physics\RigidBody.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Physics\Scene.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Physics\SleepType.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Physics\Square.h" />
+    <ClInclude Include="..\Src\Engine\Systems\Physics\Transform.h" />
+    <ClInclude Include="..\Src\Engine\Systems\UI\UI_System.h" />
+    <ClInclude Include="..\Src\Events\BaseObserver.h" />
+    <ClInclude Include="..\Src\Events\EventDispatcher.h" />
+    <ClInclude Include="..\Src\Events\EventDispatcher.hpp" />
+    <ClInclude Include="..\Src\Events\EventObserver.h" />
+    <ClInclude Include="..\Src\Events\EventObserver.hpp" />
+    <ClInclude Include="..\Src\Events\Events.h" />
+    <ClInclude Include="..\Src\Events\ICommand.h" />
+    <ClInclude Include="..\Src\Events\IEvent.h" />
+    <ClInclude Include="..\Src\ImGui\AnimationWindow.h" />
+    <ClInclude Include="..\Src\Events\ListOfCommands.h" />
+    <ClInclude Include="..\Src\ImGui\AudioManager.h" />
+    <ClInclude Include="..\Src\ImGui\Context.h" />
+    <ClInclude Include="..\Src\ImGui\DebugDataWindow.h" />
+    <ClInclude Include="..\Src\ImGui\DepthWindow.h" />
+    <ClInclude Include="..\Src\ImGui\FileWindow.h" />
+    <ClInclude Include="..\Src\ImGui\GameScreenWindow.h" />
+    <ClInclude Include="..\Src\ImGui\GfxGui.h" />
+    <ClInclude Include="..\Src\ImGui\GraphicWindow.h" />
+    <ClInclude Include="..\Src\ImGui\IImGuiWindow.h" />
+    <ClInclude Include="..\Src\ImGui\ImGuiManager.h" />
+    <ClInclude Include="..\Src\ImGui\ImGuiManager.hpp" />
+    <ClInclude Include="..\Src\ImGui\InspectorWindow.h" />
+    <ClInclude Include="..\Src\ImGui\LoggerWindow.h" />
+    <ClInclude Include="..\Src\ImGui\MaterialCompiler.h" />
+    <ClInclude Include="..\Src\ImGui\MousePicking.h" />
+    <ClInclude Include="..\Src\ImGui\SceneHierachy.h" />
+    <ClInclude Include="..\Src\ImGui\Sequencer.h" />
+    <ClInclude Include="..\Src\ImGui\UIWindow.h" />
+    <ClInclude Include="..\Src\ImGui\UISceneWindow.h" />
+    <ClInclude Include="..\Src\Inputs\Inputs.h" />
+    <ClInclude Include="..\Src\Inputs\KeyCodes.h" />
+    <ClInclude Include="..\Src\pch.h" />
+    <ClInclude Include="..\Src\Profiler\FrameRate.h" />
+    <ClInclude Include="..\Tools\FixedTimer.h" />
+    <ClInclude Include="..\Tools\GlfwHelpers.h" />
+    <ClInclude Include="..\Tools\GraphicsHelper.h" />
+    <ClInclude Include="..\Tools\Singleton.h" />
+    <ClInclude Include="..\Tools\Singleton.hpp" />
+    <ClInclude Include="..\Tools\Timer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Assets\Audio\EngineBackgroundMusic.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\basic.frag" />
+    <None Include="shaders\basic.vert" />
+    <None Include="shaders\fbo.frag" />
+    <None Include="shaders\fbo.vert" />
+    <None Include="shaders\freetype.glsl" />
+    <None Include="shaders\hdrimesh.frag" />
+    <None Include="shaders\hdrimesh.vert" />
+    <None Include="shaders\lighting.frag" />
+    <None Include="shaders\lighting.vert" />
+    <None Include="shaders\mesh.frag" />
+    <None Include="shaders\mesh.vert" />
+    <None Include="shaders\phong.frag" />
+    <None Include="shaders\phong.vert" />
+    <None Include="shaders\normal.frag" />
+    <None Include="shaders\normal.vert" />
+    <None Include="shaders\skybox.frag" />
+    <None Include="shaders\skybox.vert" />
+    <None Include="shaders\testanimation.glsl" />
+    <None Include="shaders\testing3dSingle.glsl" />
+    <None Include="shaders\texture.fs" />
+    <None Include="shaders\texture.vs" />
+    <None Include="shaders\textured.frag" />
+    <None Include="shaders\textured.vert" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{a7f9aa0c-bcf7-430e-b8e4-2dabe6144b5e}</ProjectGuid>
+    <RootNamespace>EosEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="Eos.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="Eos.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\dependencies\spdlog;$(SolutionDir)..\dependencies\fmod\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DisableSpecificWarnings>4189;4312;4201;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\dependencies\fmod\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmod_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DisableSpecificWarnings>4189;4312;4201;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

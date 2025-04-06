@@ -1,0 +1,866 @@
+{
+    "NumOfEntities": [
+        {
+            "EntityID": "Intro123",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": false,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 2.0,
+                            "y": 2.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": "Intro 1.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "Intro2",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": false,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 2.0,
+                            "y": 2.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": "Intro 2.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "Intro3",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": false,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 2.0,
+                            "y": 2.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": "Intro 3.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "Intro4",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": false,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 2.0,
+                            "y": 2.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": "Intro 4.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "Intro5",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": false,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 2.0,
+                            "y": 2.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": "Intro 5.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "Intro6",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": false,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 2.0,
+                            "y": 2.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": "Intro 6.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "Intro7",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": false,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 2.0,
+                            "y": 2.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": "Intro 7.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "Intro8",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": false,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 2.0,
+                            "y": 2.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": "Intro 8.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "Intro9",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": false,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 2.0,
+                            "y": 2.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": "Intro 9.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "Intro10",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": false,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 2.0,
+                            "y": 2.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": "Intro 10.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "Intro11",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": false,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 2.0,
+                            "y": 2.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": "Intro 11.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "Intro12",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": false,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 2.0,
+                            "y": 2.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": "Intro 12.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "SceneManager",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 2.0,
+                            "y": 2.0,
+                            "z": 2.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 4,
+                    "Properties": [
+                        {
+                            "name": "Script_Component/ModuleName",
+                            "type": "string",
+                            "Script_Component/ModuleName": "IntroLevel.cs"
+                        },
+                        {
+                            "name": "Script_Component/Active",
+                            "type": "bool",
+                            "Script_Component/Active": true
+                        },
+                        {
+                            "name": "Script_Component/ScripRef",
+                            "type": "ScripRef",
+                            "ScriptName": "IntroLevel.cs",
+                            "StoredFields": [
+                                {
+                                    "name": "val",
+                                    "typename": "System.Single",
+                                    "type": 3,
+                                    "data": 0.0
+                                },
+                                {
+                                    "name": "IsNextState",
+                                    "typename": "System.Boolean",
+                                    "type": 1,
+                                    "data": false
+                                },
+                                {
+                                    "name": "pressed",
+                                    "typename": "System.Int32",
+                                    "type": 2,
+                                    "data": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 8,
+                    "Properties": []
+                }
+            ]
+        },
+        {
+            "EntityID": "BlackScreen",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 2.0,
+                            "y": 2.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "Intro1",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 2.0,
+                            "y": 2.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 0.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": "Intro 1.png"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

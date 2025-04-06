@@ -1,0 +1,194 @@
+{
+    "NumOfEntities": [
+        {
+            "EntityID": "SceneManager",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 2.0,
+                            "y": 2.0,
+                            "z": 2.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 4,
+                    "Properties": [
+                        {
+                            "name": "Script_Component/ModuleName",
+                            "type": "string",
+                            "Script_Component/ModuleName": "MidCutscene.cs"
+                        },
+                        {
+                            "name": "Script_Component/Active",
+                            "type": "bool",
+                            "Script_Component/Active": true
+                        },
+                        {
+                            "name": "Script_Component/ScripRef",
+                            "type": "ScripRef",
+                            "ScriptName": "MidCutscene.cs",
+                            "StoredFields": [
+                                {
+                                    "name": "val",
+                                    "typename": "System.Single",
+                                    "type": 3,
+                                    "data": 0.0
+                                },
+                                {
+                                    "name": "IsNextState",
+                                    "typename": "System.Boolean",
+                                    "type": 1,
+                                    "data": false
+                                },
+                                {
+                                    "name": "pressed",
+                                    "typename": "System.Int32",
+                                    "type": 2,
+                                    "data": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 8,
+                    "Properties": []
+                }
+            ]
+        },
+        {
+            "EntityID": "BlackScreen",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -0.10000000149011612
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 2.0,
+                            "y": 2.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "mid1",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": -1.1920928955078126e-7,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 2.0,
+                            "y": 2.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": "Mid 1.png"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

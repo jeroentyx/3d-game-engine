@@ -1,0 +1,642 @@
+{
+    "NumOfEntities": [
+        {
+            "EntityID": "End157",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": false,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 1.4901161193847657e-8,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 2.0,
+                            "y": 2.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": "Ending 1.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "End2",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": false,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 2.0,
+                            "y": 2.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": "Ending 2.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "End3",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": false,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 2.9802322387695315e-8,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 2.0,
+                            "y": 2.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": "Ending 3.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "End4",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": false,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 2.9802322387695315e-8,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 2.0,
+                            "y": 2.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": "Ending 4.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "End5",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": false,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 2.0,
+                            "y": 2.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": "Ending 5.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "End6",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": false,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 2.0,
+                            "y": 2.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": "Ending 6.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "End7",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": false,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 2.0,
+                            "y": 2.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": "Ending 7.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "End8",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": false,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 2.0,
+                            "y": 2.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": "Ending 8.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "SceneManager",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 2.0,
+                            "y": 2.0,
+                            "z": 2.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 4,
+                    "Properties": [
+                        {
+                            "name": "Script_Component/ModuleName",
+                            "type": "string",
+                            "Script_Component/ModuleName": "EndingCutscene.cs"
+                        },
+                        {
+                            "name": "Script_Component/Active",
+                            "type": "bool",
+                            "Script_Component/Active": true
+                        },
+                        {
+                            "name": "Script_Component/ScripRef",
+                            "type": "ScripRef",
+                            "ScriptName": "EndingCutscene.cs",
+                            "StoredFields": [
+                                {
+                                    "name": "val",
+                                    "typename": "System.Single",
+                                    "type": 3,
+                                    "data": 0.0
+                                },
+                                {
+                                    "name": "IsNextState",
+                                    "typename": "System.Boolean",
+                                    "type": 1,
+                                    "data": false
+                                },
+                                {
+                                    "name": "pressed",
+                                    "typename": "System.Int32",
+                                    "type": 2,
+                                    "data": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 8,
+                    "Properties": []
+                }
+            ]
+        },
+        {
+            "EntityID": "BlackScreen",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 2.0,
+                            "y": 2.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "End1",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 2.0,
+                            "y": 2.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 0.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": "Ending 1.png"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

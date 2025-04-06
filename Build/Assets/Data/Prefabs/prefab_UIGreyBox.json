@@ -1,0 +1,53 @@
+{
+  "PrefabName": "UIGreyBG",
+  "Components": [
+    {
+      "ComponentType": 1,
+      "Properties": [
+        {
+          "name": "Transform_Component/Translation",
+          "type": "vector3",
+          "x": 0.0,
+          "y": 0.8999999761581421,
+          "z": 0.0
+        },
+        {
+          "name": "Transform_Component/Rotation",
+          "type": "vector3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "Transform_Component/Scale",
+          "type": "vector3",
+          "x": 0.800000011920929,
+          "y": 0.25,
+          "z": 1.0
+        }
+      ]
+    },
+    {
+      "ComponentType": 10,
+      "Properties": [
+        {
+          "name": "GUI_Component/Opacity",
+          "type": "f32",
+          "GUI_Component/Opacity": 1.0
+        },
+        {
+          "name": "GUI_Component/inColor",
+          "type": "vector3",
+          "x": 0.4000000059604645,
+          "y": 0.4000000059604645,
+          "z": 0.4000000059604645
+        },
+        {
+          "name": "GUI_Component/filePath",
+          "type": "string",
+          "GUI_Component/filePath": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{708d61ce-98f8-4a30-8237-23a9801ba189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies">
+      <UniqueIdentifier>{a832c2c4-2f97-4bad-b16c-fb93c020c61f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{11f162fe-dc42-4553-b1db-5b639d9419a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine">
+      <UniqueIdentifier>{3a265ad3-c215-4aa3-921a-3c8df705c3be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine\Components">
+      <UniqueIdentifier>{391853d3-651f-466c-a1e6-65ca37e9e38b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine\Core">
+      <UniqueIdentifier>{b999ff42-c9cb-4ed5-a9d5-00a8c002d2f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine\Core\Interfaces">
+      <UniqueIdentifier>{92c2e9ff-b1f7-4f5c-a717-d24f50eda92e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine\Core\Manager">
+      <UniqueIdentifier>{9fbccf89-99b0-4e90-ac02-38e77fb69e25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine\Core\Engine">
+      <UniqueIdentifier>{ca3c6bd8-f246-4e04-96d6-96a6d1489dfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine\Core\Frameworks">
+      <UniqueIdentifier>{865dda26-f061-403e-8cdc-beb5906e7322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine\Core\Frameworks\FileManager">
+      <UniqueIdentifier>{3425c2ae-3707-40d5-bf99-c53b40917b02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine\Core\Frameworks\Serialization">
+      <UniqueIdentifier>{87d43b44-6f63-43d2-842c-edc21d09f728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine\Core\Systems">
+      <UniqueIdentifier>{1e06fc31-f3c4-4f6a-87c9-62e1f444f9ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine\Core\Systems\Graphics">
+      <UniqueIdentifier>{42ad4480-a034-4784-9c65-3dacfe5b7422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine\Core\Systems\Physics">
+      <UniqueIdentifier>{fbc62e77-21db-45f4-b669-15ce38468dce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Debug">
+      <UniqueIdentifier>{6d56ecb2-8c17-452c-b39e-690f5b384ccc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\imgui">
+      <UniqueIdentifier>{0d7ec1f9-c898-4571-a3b3-d1aa5bbfc68b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\ImGui">
+      <UniqueIdentifier>{4866458d-b1af-4229-9e62-3faf5ac1306f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Events">
+      <UniqueIdentifier>{f38fce01-a592-4514-81c6-d055fc7f2cbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Inputs">
+      <UniqueIdentifier>{64481980-2b2e-4af8-89a2-5f0804ac6532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Profiler">
+      <UniqueIdentifier>{dc3329ad-4464-48a1-b6a5-304b9f76a283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine\Core\Systems\Logic">
+      <UniqueIdentifier>{edb06a9d-0dd5-46d4-a042-bddc216a7364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\ImGui\Window">
+      <UniqueIdentifier>{f38adf0c-3e38-445c-9e91-639f0b3fd4f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine\Core\Systems\Graphics\Renderer">
+      <UniqueIdentifier>{fe8642c4-83cc-4ca2-9f3d-6dfac509c667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine\Core\Systems\Graphics\Platform">
+      <UniqueIdentifier>{bab0a745-1e43-42f4-8f2e-8e72fd2cfecd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine\Core\Systems\Graphics\Renderer\Camera">
+      <UniqueIdentifier>{27ddd3e3-b3a5-4f39-a0e0-101f075d0ba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine\Core\Systems\Graphics\Tools">
+      <UniqueIdentifier>{b573e98c-1871-43ff-b321-a111fad7b67a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine\Core\Systems\Graphics\EosRenderer">
+      <UniqueIdentifier>{3554e008-47ab-4cba-9362-f00277a93022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Shaders">
+      <UniqueIdentifier>{abdbd36c-3a45-49cf-8856-4146d49b8237}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine\Core\Systems\Physics\CPP">
+      <UniqueIdentifier>{91550ff3-4857-4e67-b137-309ad35d060f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine\Core\Systems\Physics\Header">
+      <UniqueIdentifier>{bc1de4b1-8f30-4bbf-bd0d-478c0315f533}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine\Core\Systems\Audio">
+      <UniqueIdentifier>{8e210a32-a714-432d-8b1a-8cbc1de12e99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine\Core\Frameworks\Logger">
+      <UniqueIdentifier>{da68bce8-0924-444c-84a4-8d92e9c2fa1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine\Core\Systems\Graphics\Font">
+      <UniqueIdentifier>{76759ef4-f45a-474f-a2c8-56cf8f9567f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine\Core\Systems\Graphics\Animation">
+      <UniqueIdentifier>{e767cbfb-8ad8-4656-a6b0-176afc220a76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine\Core\Systems\Graphics\Importer">
+      <UniqueIdentifier>{0a3160db-b3f4-4c4b-9347-7c21cf0db82b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine\Core\Systems\Graphics\Mesh">
+      <UniqueIdentifier>{18d91211-499f-4e20-8f86-29b7204a997b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine\Core\Systems\Graphics\Compiler">
+      <UniqueIdentifier>{5eb5eaf1-ece7-48f6-895f-124a626f5919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine\Core\Systems\UI">
+      <UniqueIdentifier>{6ba5a3f5-9dc2-4eae-bd05-d48c9336d51c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\msdf">
+      <UniqueIdentifier>{80056b3e-317c-4a10-bacc-6e3206ef202b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\msdf\msdf-atlas-gen">
+      <UniqueIdentifier>{f7f12191-737e-4134-89ac-288fcc3d2bfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\msdf\msdfgen">
+      <UniqueIdentifier>{370d850f-610c-4a74-901d-18dcfdd92e37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\msdf\msdfgen\lib">
+      <UniqueIdentifier>{046ce584-63e1-42a2-8824-7bbccba26569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\msdf\msdfgen\ext">
+      <UniqueIdentifier>{f9299d49-b2b6-427d-8a35-00a05534faf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\msdf\msdfgen\core">
+      <UniqueIdentifier>{d35061bf-a8a4-4a30-ac19-786915f30c1a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Src\EntryPoint.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Core\Manager\ComponentManager.cpp">
+      <Filter>Core\Engine\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Core\Manager\EntityManager.cpp">
+      <Filter>Core\Engine\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Core\Manager\SceneManager.cpp">
+      <Filter>Core\Engine\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Engine\CoreManager.cpp">
+      <Filter>Core\Engine\Core\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Physics\Physics_System.cpp">
+      <Filter>Core\Engine\Core\Systems\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\ImGui\Context.cpp">
+      <Filter>Core\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\ImGui\GfxGui.cpp">
+      <Filter>Core\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\imgui-1.84.2\imgui.cpp">
+      <Filter>Dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\imgui-1.84.2\imgui_demo.cpp">
+      <Filter>Dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\imgui-1.84.2\imgui_draw.cpp">
+      <Filter>Dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\imgui-1.84.2\imgui_impl_glfw.cpp">
+      <Filter>Dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\imgui-1.84.2\imgui_impl_opengl3.cpp">
+      <Filter>Dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\imgui-1.84.2\imgui_tables.cpp">
+      <Filter>Dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\imgui-1.84.2\imgui_widgets.cpp">
+      <Filter>Dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Events\BaseObserver.cpp">
+      <Filter>Core\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Events\GlfwHelpers.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Inputs\Inputs.cpp">
+      <Filter>Core\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Tools\FixedTimer.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Profiler\FrameRate.cpp">
+      <Filter>Core\Profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Tools\Timer.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\ImGui\ImGuiManager.cpp">
+      <Filter>Core\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Logic\Fields.cpp">
+      <Filter>Core\Engine\Core\Systems\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Logic\MonoUtils.cpp">
+      <Filter>Core\Engine\Core\Systems\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Logic\ScriptingSystem.cpp">
+      <Filter>Core\Engine\Core\Systems\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Logic\ScriptRegistry.cpp">
+      <Filter>Core\Engine\Core\Systems\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Logic\ScriptWrappers.cpp">
+      <Filter>Core\Engine\Core\Systems\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Frameworks\Serialization\ISerializable.cpp">
+      <Filter>Core\Engine\Core\Frameworks\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Frameworks\Serialization\Reader.cpp">
+      <Filter>Core\Engine\Core\Frameworks\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Frameworks\Serialization\SerializeManager.cpp">
+      <Filter>Core\Engine\Core\Frameworks\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Frameworks\Serialization\Writer.cpp">
+      <Filter>Core\Engine\Core\Frameworks\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\ImGui\FileWindow.cpp">
+      <Filter>Core\ImGui\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\ImGui\IImGuiWindow.cpp">
+      <Filter>Core\ImGui\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\ImGui\SceneHierachy.cpp">
+      <Filter>Core\ImGui\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\ImGui\LoggerWindow.cpp">
+      <Filter>Core\ImGui\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\ImGui\InspectorWindow.cpp">
+      <Filter>Core\ImGui\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\ImGui\GameScreenWindow.cpp">
+      <Filter>Core\ImGui\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Shader.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Renderer\Camera\PerspectiveCamera.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics\Renderer\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Renderer\Buffer.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Renderer\RenderCommand.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Renderer\Renderer3D.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Renderer\RendererAPI.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Renderer\VertexArray.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Platform\OpenGLBuffer.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Platform\OpenGLRendererAPI.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Platform\OpenGLVertexArray.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Components\Transform\TransformComponent.cpp">
+      <Filter>Core\Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Components\Mesh\MeshComponent.cpp">
+      <Filter>Core\Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Core\Manager\SystemManager.cpp">
+      <Filter>Core\Engine\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Physics\CollisionManager.cpp">
+      <Filter>Core\Engine\Core\Systems\Physics\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Physics\Cube.cpp">
+      <Filter>Core\Engine\Core\Systems\Physics\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Physics\IShape.cpp">
+      <Filter>Core\Engine\Core\Systems\Physics\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Physics\Island.cpp">
+      <Filter>Core\Engine\Core\Systems\Physics\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Physics\Manifold.cpp">
+      <Filter>Core\Engine\Core\Systems\Physics\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Physics\RigidBody.cpp">
+      <Filter>Core\Engine\Core\Systems\Physics\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Physics\Scene.cpp">
+      <Filter>Core\Engine\Core\Systems\Physics\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Physics\Square.cpp">
+      <Filter>Core\Engine\Core\Systems\Physics\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Frameworks\FileManager\FileManager.cpp">
+      <Filter>Core\Engine\Core\Frameworks\FileManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\ImGui\GraphicWindow.cpp">
+      <Filter>Core\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\ImGui\MaterialCompiler.cpp">
+      <Filter>Core\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\EosRenderer\EosEditorResources.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics\EosRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\EosRenderer\TestMesh.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics\EosRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\EosRenderer\TestModel.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics\EosRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\EosRenderer\TestShader.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics\EosRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Tools\GraphicHelper.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\EosRenderer\TestSkyBox.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics\EosRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\ImGuizmo\ImCurveEdit.cpp">
+      <Filter>Dependencies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\ImGuizmo\ImGradient.cpp">
+      <Filter>Dependencies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\ImGuizmo\ImGuizmo.cpp">
+      <Filter>Dependencies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\ImGuizmo\ImSequencer.cpp">
+      <Filter>Dependencies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Platform\OpenGLTexture.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Renderer\Texture.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\stb_image.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Frameworks\Logger\Logger.cpp">
+      <Filter>Core\Engine\Core\Frameworks\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Font\Font.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Components\Script\ScriptComponent.cpp">
+      <Filter>Core\Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Components\LightComponent.cpp">
+      <Filter>Core\Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\ImGui\DebugDataWindow.cpp">
+      <Filter>Core\ImGui\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\tracy\TracyClient.cpp">
+      <Filter>Core\Profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\ImGui\DepthWindow.cpp">
+      <Filter>Core\ImGui\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\EosRenderer\EosMeshData.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics\EosRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\EosRenderer\EosTexture2D.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics\EosRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\EosRenderer\EosFramebuffer.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics\EosRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Components\Mesh\AnimatedMeshComponent.cpp">
+      <Filter>Core\Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Components\Mesh\StaticMeshComponent.cpp">
+      <Filter>Core\Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Renderer\Camera\Camera.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics\Renderer\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\EosRenderer\FileWatcher.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics\EosRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Mesh\Mesh.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Importer\AssimpLoader.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics\Importer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\imgui-1.84.2\ImGuiFileBrowser.cpp">
+      <Filter>Dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Components\Camera\CameraComponent.cpp">
+      <Filter>Core\Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Animation\AnimationSM.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Animation\AnimStateMachine.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Animation\AnimStates.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Components\UI\UI_Sprite2DComponent.cpp">
+      <Filter>Core\Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Renderer\Renderer.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Renderer\Renderer2D.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Compiler\Textureloader.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics\Compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Compiler\MeshLoader.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics\Compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Core\Manager\PrefabManager.cpp">
+      <Filter>Core\Engine\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\ImGui\MousePicking.cpp">
+      <Filter>Core\ImGui\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\imgui-1.84.2\imgui_stdlib.cpp">
+      <Filter>Dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Audio\Audio_System.cpp">
+      <Filter>Core\Engine\Core\Systems\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\ImGui\AudioManager.cpp">
+      <Filter>Core\ImGui\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\UI\UI_System.cpp">
+      <Filter>Core\Engine\Core\Systems\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Graphics_System.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Core\Manager\HistoryManager.cpp">
+      <Filter>Core\Engine\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Events\ListOfCommands.cpp">
+      <Filter>Core\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\UIElements.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Components\GUIComponent.cpp">
+      <Filter>Core\Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\ImGui\UISceneWindow.cpp">
+      <Filter>Core\ImGui\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Compiler\AnimationCompiler.cpp" />
+    <ClCompile Include="..\Src\ImGui\AnimationWindow.cpp" />
+    <ClCompile Include="..\Src\ImGui\Sequencer.cpp" />
+    <ClCompile Include="..\Src\ImGui\UIWindow.cpp" />
+    <ClCompile Include="..\Src\Engine\Components\Skybox\SkyboxComponent.cpp">
+      <Filter>Core\Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Components\Font\FontComponent.cpp">
+      <Filter>Core\Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Compiler\FontCompiler.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics\Compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\bitmap-blit.cpp">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\Charset.cpp">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\charset-parser.cpp">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\csv-export.cpp">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\FontGeometry.cpp">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\glyph-generators.cpp">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\GlyphGeometry.cpp">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\image-encode.cpp">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\json-export.cpp">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\RectanglePacker.cpp">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\shadron-preview-generator.cpp">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\size-selectors.cpp">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\TightAtlasPacker.cpp">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\utf8.cpp">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\Workload.cpp">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\lib\lodepng.cpp">
+      <Filter>Dependencies\msdf\msdfgen\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\lib\tinyxml2.cpp">
+      <Filter>Dependencies\msdf\msdfgen\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\ext\import-font.cpp">
+      <Filter>Dependencies\msdf\msdfgen\ext</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\ext\import-svg.cpp">
+      <Filter>Dependencies\msdf\msdfgen\ext</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\ext\resolve-shape-geometry.cpp">
+      <Filter>Dependencies\msdf\msdfgen\ext</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\ext\save-png.cpp">
+      <Filter>Dependencies\msdf\msdfgen\ext</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\Contour.cpp">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\contour-combiners.cpp">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\edge-coloring.cpp">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\EdgeHolder.cpp">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\edge-segments.cpp">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\edge-selectors.cpp">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\equation-solver.cpp">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\MSDFErrorCorrection.cpp">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\msdf-error-correction.cpp">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\msdfgen.cpp">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\Projection.cpp">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\rasterization.cpp">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\render-sdf.cpp">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\save-bmp.cpp">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\save-tiff.cpp">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\Scanline.cpp">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\sdf-error-estimation.cpp">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\Shape.cpp">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\shape-description.cpp">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\SignedDistance.cpp">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\msdf-atlas-gen\msdfgen\core\Vector2.cpp">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Core\Manager\AssetManager.cpp">
+      <Filter>Core\Engine\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Renderer\Framebuffer.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Platform\OpenGLFramebuffer.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Core\Manager\HashAssetManager.cpp">
+      <Filter>Core\Engine\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Systems\Graphics\Animation\AnimPose.cpp">
+      <Filter>Core\Engine\Core\Systems\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Components\Particle.cpp">
+      <Filter>Core\Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Components\Particlehelper.cpp">
+      <Filter>Core\Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Components\ParticleComponent.cpp">
+      <Filter>Core\Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Components\glslprogram.cpp">
+      <Filter>Core\Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Components\grid.cpp">
+      <Filter>Core\Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Components\Itexture.cpp">
+      <Filter>Core\Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Components\glutils.cpp">
+      <Filter>Core\Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Engine\Components\SmokeComponent.cpp" />
+    <ClCompile Include="..\Src\Engine\Components\Billboard\BillboardComponent.cpp">
+      <Filter>Core\Engine\Components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Src\Engine\ComponentSystemID.h">
+      <Filter>Core\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Core\Manager\ComponentCreator.h">
+      <Filter>Core\Engine\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Core\Manager\ComponentManager.h">
+      <Filter>Core\Engine\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Core\Manager\EntityManager.h">
+      <Filter>Core\Engine\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Core\Manager\SceneManager.h">
+      <Filter>Core\Engine\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Core\Interfaces\ISystem.h">
+      <Filter>Core\Engine\Core\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Core\Interfaces\IComponent.h">
+      <Filter>Core\Engine\Core\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Engine\CoreManager.h">
+      <Filter>Core\Engine\Core\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Physics\Physics_System.h">
+      <Filter>Core\Engine\Core\Systems\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Graphics_System.h">
+      <Filter>Core\Engine\Core\Systems\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\pch.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\ImGui\Context.h">
+      <Filter>Core\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\ImGui\GfxGui.h">
+      <Filter>Core\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\imgui-1.84.2\imconfig.h">
+      <Filter>Dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\imgui-1.84.2\imgui.h">
+      <Filter>Dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\imgui-1.84.2\imgui_impl_glfw.h">
+      <Filter>Dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\imgui-1.84.2\imgui_impl_opengl3.h">
+      <Filter>Dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\imgui-1.84.2\imgui_impl_opengl3_loader.h">
+      <Filter>Dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\imgui-1.84.2\imgui_internal.h">
+      <Filter>Dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\imgui-1.84.2\imstb_rectpack.h">
+      <Filter>Dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\imgui-1.84.2\imstb_textedit.h">
+      <Filter>Dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\imgui-1.84.2\imstb_truetype.h">
+      <Filter>Dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Tools\Singleton.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Tools\Singleton.hpp">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Events\BaseObserver.h">
+      <Filter>Core\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Events\EventDispatcher.h">
+      <Filter>Core\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Events\EventDispatcher.hpp">
+      <Filter>Core\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Events\EventObserver.h">
+      <Filter>Core\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Events\EventObserver.hpp">
+      <Filter>Core\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Events\Events.h">
+      <Filter>Core\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Events\IEvent.h">
+      <Filter>Core\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Tools\GlfwHelpers.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Inputs\Inputs.h">
+      <Filter>Core\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Inputs\KeyCodes.h">
+      <Filter>Core\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Profiler\FrameRate.h">
+      <Filter>Core\Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Tools\Timer.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Tools\FixedTimer.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\ImGui\ImGuiManager.hpp">
+      <Filter>Core\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\ImGui\ImGuiManager.h">
+      <Filter>Core\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Logic\Fields.hpp">
+      <Filter>Core\Engine\Core\Systems\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Logic\MonoUtils.hpp">
+      <Filter>Core\Engine\Core\Systems\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Logic\ScriptingSystem.hpp">
+      <Filter>Core\Engine\Core\Systems\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Logic\ScriptRegistry.hpp">
+      <Filter>Core\Engine\Core\Systems\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Logic\ScriptWrappers.hpp">
+      <Filter>Core\Engine\Core\Systems\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Frameworks\Serialization\ISerializable.h">
+      <Filter>Core\Engine\Core\Frameworks\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Frameworks\Serialization\Reader.h">
+      <Filter>Core\Engine\Core\Frameworks\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Frameworks\Serialization\SerializeManager.h">
+      <Filter>Core\Engine\Core\Frameworks\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Frameworks\Serialization\Writer.h">
+      <Filter>Core\Engine\Core\Frameworks\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\ImGui\FileWindow.h">
+      <Filter>Core\ImGui\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\ImGui\IImGuiWindow.h">
+      <Filter>Core\ImGui\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\ImGui\SceneHierachy.h">
+      <Filter>Core\ImGui\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\ImGui\LoggerWindow.h">
+      <Filter>Core\ImGui\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\ImGui\InspectorWindow.h">
+      <Filter>Core\ImGui\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\ImGui\GameScreenWindow.h">
+      <Filter>Core\ImGui\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Shader.h">
+      <Filter>Core\Engine\Core\Systems\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Tools\GraphicsHelper.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Renderer\Camera\PerspectiveCamera.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\Renderer\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Renderer\Buffer.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Renderer\RenderCommand.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Renderer\Renderer3D.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Renderer\RendererAPI.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Renderer\VertexArray.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Platform\OpenGLBuffer.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Platform\OpenGLRendererAPI.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Platform\OpenGLVertexArray.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Components\Transform\TransformComponent.h">
+      <Filter>Core\Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Components\Mesh\MeshComponent.h">
+      <Filter>Core\Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Core\Manager\SystemManager.h">
+      <Filter>Core\Engine\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Physics\BodyType.h">
+      <Filter>Core\Engine\Core\Systems\Physics\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Physics\ColliderBox.h">
+      <Filter>Core\Engine\Core\Systems\Physics\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Physics\CollisionManager.h">
+      <Filter>Core\Engine\Core\Systems\Physics\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Physics\CollisionType.h">
+      <Filter>Core\Engine\Core\Systems\Physics\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Physics\Cube.h">
+      <Filter>Core\Engine\Core\Systems\Physics\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Physics\FixedPhysicsValues.h">
+      <Filter>Core\Engine\Core\Systems\Physics\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Physics\IAABB.h">
+      <Filter>Core\Engine\Core\Systems\Physics\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Physics\IShape.h">
+      <Filter>Core\Engine\Core\Systems\Physics\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Physics\Island.h">
+      <Filter>Core\Engine\Core\Systems\Physics\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Physics\Manifold.h">
+      <Filter>Core\Engine\Core\Systems\Physics\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Physics\Math.h">
+      <Filter>Core\Engine\Core\Systems\Physics\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Physics\RigidBody.h">
+      <Filter>Core\Engine\Core\Systems\Physics\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Physics\Scene.h">
+      <Filter>Core\Engine\Core\Systems\Physics\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Physics\SleepType.h">
+      <Filter>Core\Engine\Core\Systems\Physics\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Physics\Square.h">
+      <Filter>Core\Engine\Core\Systems\Physics\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Physics\Transform.h">
+      <Filter>Core\Engine\Core\Systems\Physics\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Frameworks\FileManager\FileManager.hpp">
+      <Filter>Core\Engine\Core\Frameworks\FileManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Platform\OpenGLTexture.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Renderer\Texture.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Frameworks\Logger\Logger.h">
+      <Filter>Core\Engine\Core\Frameworks\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Font\Font.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Components\Script\ScriptComponent.h">
+      <Filter>Core\Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Core\Memory\MemoryManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\ImGui\GraphicWindow.h">
+      <Filter>Core\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Tools\Model.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Components\LightComponent.h">
+      <Filter>Core\Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\EosRenderer\ForceGraphicCard.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\EosRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\ImGui\MaterialCompiler.h">
+      <Filter>Core\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\EosRenderer\EosEditorResources.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\EosRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\EosRenderer\TestModel.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\EosRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\EosRenderer\TestShader.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\EosRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\EosRenderer\TestMesh.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\EosRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\EosRenderer\TestSkyBox.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\EosRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\ImGuizmo\ImCurveEdit.h">
+      <Filter>Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\ImGuizmo\ImGradient.h">
+      <Filter>Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\ImGuizmo\ImGuizmo.h">
+      <Filter>Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\ImGuizmo\ImSequencer.h">
+      <Filter>Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\ImGui\DebugDataWindow.h">
+      <Filter>Core\ImGui\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\ImGui\DepthWindow.h">
+      <Filter>Core\ImGui\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\EosRenderer\EosMeshData.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\EosRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\EosRenderer\EosTexture2D.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\EosRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\EosRenderer\EosFramebuffer.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\EosRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\EosRenderer\EosMaterial.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\EosRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Components\Mesh\AnimatedMeshComponent.h">
+      <Filter>Core\Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Components\Mesh\StaticMeshComponent.h">
+      <Filter>Core\Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\EosRenderer\ParserFlags.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\Importer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Logic\ScriptData.h">
+      <Filter>Core\Engine\Core\Systems\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Core\Manager\EntityID.h">
+      <Filter>Core\Engine\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Renderer\Camera\Camera.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\Renderer\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\EosRenderer\tinyddsloader.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\EosRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\EosRenderer\FileWatcher.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\EosRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\NativeScript\NativeScriptingSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Mesh\Mesh.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Importer\AssimpLoader.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\Importer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\imgui-1.84.2\ImGuiFileBrowser.h">
+      <Filter>Dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Components\Camera\CameraComponent.h">
+      <Filter>Core\Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Animation\AnimationSM.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Animation\IStates.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Animation\AnimStates.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Animation\StateMachineBase.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Animation\AnimStateMachine.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Components\UI\UI_Sprite2DComponent.h">
+      <Filter>Core\Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Renderer\Renderer.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Renderer\Renderer2D.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Compiler\TextureLoader.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Compiler\MeshLoader.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Core\Manager\PrefabManager.h">
+      <Filter>Core\Engine\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\ImGui\MousePicking.h">
+      <Filter>Core\ImGui\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\imgui-1.84.2\imgui_stdlib.h">
+      <Filter>Dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Physics\ObjectType.h">
+      <Filter>Core\Engine\Core\Systems\Physics\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Audio\Audio_System.h">
+      <Filter>Core\Engine\Core\Systems\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\ImGui\AudioManager.h">
+      <Filter>Core\ImGui\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\UI\UI_System.h">
+      <Filter>Core\Engine\Core\Systems\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Events\ICommand.h">
+      <Filter>Core\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Events\ListOfCommands.h">
+      <Filter>Core\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Core\Manager\HistoryManager.h">
+      <Filter>Core\Engine\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Core\Manager\UndoCommand.h">
+      <Filter>Core\Engine\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Renderer\OpenglUITexture.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\UIElements.h">
+      <Filter>Core\Engine\Core\Systems\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Components\GUIComponent.h">
+      <Filter>Core\Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\ImGui\UISceneWindow.h">
+      <Filter>Core\ImGui\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Compiler\AnimationCompiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\ImGui\AnimationWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\ImGui\Sequencer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\ImGui\UIWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Components\Skybox\SkyboxComponent.h">
+      <Filter>Core\Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Components\Font\FontComponent.h">
+      <Filter>Core\Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Compiler\FontCompiler.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\AtlasGenerator.h">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\AtlasStorage.h">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\BitmapAtlasStorage.h">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\BitmapAtlasStorage.hpp">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\bitmap-blit.h">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\Charset.h">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\csv-export.h">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\DynamicAtlas.h">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\DynamicAtlas.hpp">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\FontGeometry.h">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\GlyphBox.h">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\glyph-generators.h">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\GlyphGeometry.h">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\image-encode.h">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\image-save.h">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\image-save.hpp">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\ImmediateAtlasGenerator.h">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\ImmediateAtlasGenerator.hpp">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\json-export.h">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\msdf-atlas-gen.h">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\Rectangle.h">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\RectanglePacker.h">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\rectangle-packing.h">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\rectangle-packing.hpp">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\Remap.h">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\shadron-preview-generator.h">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\size-selectors.h">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\TightAtlasPacker.h">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\types.h">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\utf8.h">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdf-atlas-gen\Workload.h">
+      <Filter>Dependencies\msdf\msdf-atlas-gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\ext\import-font.h">
+      <Filter>Dependencies\msdf\msdfgen\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\ext\import-svg.h">
+      <Filter>Dependencies\msdf\msdfgen\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\ext\resolve-shape-geometry.h">
+      <Filter>Dependencies\msdf\msdfgen\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\ext\save-png.h">
+      <Filter>Dependencies\msdf\msdfgen\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\include\lodepng.h">
+      <Filter>Dependencies\msdf\msdfgen\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\include\tinyxml2.h">
+      <Filter>Dependencies\msdf\msdfgen\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\arithmetics.hpp">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\Bitmap.h">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\Bitmap.hpp">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\bitmap-interpolation.hpp">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\BitmapRef.hpp">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\Contour.h">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\contour-combiners.h">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\EdgeColor.h">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\edge-coloring.h">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\EdgeHolder.h">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\edge-segments.h">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\edge-selectors.h">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\equation-solver.h">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\generator-config.h">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\MSDFErrorCorrection.h">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\msdf-error-correction.h">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\pixel-conversion.hpp">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\Projection.h">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\rasterization.h">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\render-sdf.h">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\save-bmp.h">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\save-tiff.h">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\Scanline.h">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\sdf-error-estimation.h">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\Shape.h">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\shape-description.h">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\ShapeDistanceFinder.h">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\ShapeDistanceFinder.hpp">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\SignedDistance.h">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\msdf-atlas-gen\msdfgen\core\Vector2.h">
+      <Filter>Dependencies\msdf\msdfgen\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Core\Manager\AssetManager.h">
+      <Filter>Core\Engine\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Renderer\Framebuffer.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Platform\OpenGLFramebuffer.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Core\Manager\HashEntry.hpp">
+      <Filter>Core\Engine\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Core\Manager\HashMap.hpp">
+      <Filter>Core\Engine\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Core\Manager\HashAssetManager.hpp">
+      <Filter>Core\Engine\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Animation\AnimPose.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Systems\Graphics\Animation\AnimationWrapModes.h">
+      <Filter>Core\Engine\Core\Systems\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Components\Particle.h">
+      <Filter>Core\Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Components\Particlehelper.h">
+      <Filter>Core\Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Components\ParticleComponent.h">
+      <Filter>Core\Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Components\glslprogram.h">
+      <Filter>Core\Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Components\grid.h">
+      <Filter>Core\Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Components\IScene.h">
+      <Filter>Core\Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Components\Irandom.h">
+      <Filter>Core\Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Components\Itexture.h">
+      <Filter>Core\Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Components\drawable.h">
+      <Filter>Core\Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Components\glutils.h">
+      <Filter>Core\Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Components\SmokeComponent.h">
+      <Filter>Core\Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Engine\Components\Billboard\BillboardComponent.h">
+      <Filter>Core\Engine\Components</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Assets\Audio\EngineBackgroundMusic.wav">
+      <Filter>Assets</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\basic.frag">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="shaders\basic.vert">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="shaders\fbo.frag">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="shaders\fbo.vert">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="shaders\freetype.glsl">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="shaders\hdrimesh.frag">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="shaders\hdrimesh.vert">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="shaders\mesh.frag">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="shaders\mesh.vert">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="shaders\phong.frag">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="shaders\phong.vert">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="shaders\skybox.frag">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="shaders\skybox.vert">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="shaders\testing3dSingle.glsl">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="shaders\textured.frag">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="shaders\textured.vert">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="shaders\normal.vert">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="shaders\normal.frag">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="shaders\lighting.frag">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="shaders\lighting.vert">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="shaders\texture.fs">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="shaders\texture.vs">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="shaders\testanimation.glsl">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,3921 @@
+{
+    "NumOfEntities": [
+        {
+            "EntityID": "Surge",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": -0.013011574745178223,
+                            "y": 2.0001912117004396,
+                            "z": -0.09790849685668946
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 3.1419999599456789,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 6,
+                    "Properties": [
+                        {
+                            "name": "Animated_Mesh_Component/directory",
+                            "type": "string",
+                            "Animated_Mesh_Component/directory": ""
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 4,
+                    "Properties": [
+                        {
+                            "name": "Script_Component/ModuleName",
+                            "type": "string",
+                            "Script_Component/ModuleName": "PlayerMovement.cs"
+                        },
+                        {
+                            "name": "Script_Component/Active",
+                            "type": "bool",
+                            "Script_Component/Active": true
+                        },
+                        {
+                            "name": "Script_Component/ScripRef",
+                            "type": "ScripRef",
+                            "ScriptName": "PlayerMovement.cs",
+                            "StoredFields": [
+                                {
+                                    "name": "moveSpeed",
+                                    "typename": "System.Single",
+                                    "type": 3,
+                                    "data": 0.0
+                                },
+                                {
+                                    "name": "frictionFactor",
+                                    "typename": "System.Single",
+                                    "type": 3,
+                                    "data": 0.9800000190734863
+                                },
+                                {
+                                    "name": "moveAccel",
+                                    "typename": "System.Single",
+                                    "type": 3,
+                                    "data": 125.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 0,
+                    "Properties": [
+                        {
+                            "name": "Physics_Component/pc_linearVelocity",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_angularVelocity",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_force",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_impulse",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_torque",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_gravityDirection",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": -1.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_faceDirection",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbCenter",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 1.6629999876022339,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbScale",
+                            "type": "vector3",
+                            "x": 1.5399999618530274,
+                            "y": 2.390000104904175,
+                            "z": 1.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbOffset",
+                            "type": "vector3",
+                            "x": -0.029999999329447748,
+                            "y": 1.0800000429153443,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_mass",
+                            "type": "f32",
+                            "Physics_Component/pc_mass": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_friction",
+                            "type": "f32",
+                            "Physics_Component/pc_friction": 0.5
+                        },
+                        {
+                            "name": "Physics_Component/pc_restitution",
+                            "type": "f32",
+                            "Physics_Component/pc_restitution": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_solveTime",
+                            "type": "f32",
+                            "Physics_Component/pc_solveTime": 0.01666666753590107
+                        },
+                        {
+                            "name": "Physics_Component/pc_hasFriction",
+                            "type": "bool",
+                            "Physics_Component/pc_hasFriction": true
+                        },
+                        {
+                            "name": "Physics_Component/pc_hasGravity",
+                            "type": "bool",
+                            "Physics_Component/pc_hasGravity": true
+                        },
+                        {
+                            "name": "Physics_Component/pc_collisionFlag",
+                            "type": "bool",
+                            "Physics_Component/pc_collisionFlag": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_isStatic",
+                            "type": "bool",
+                            "Physics_Component/pc_isStatic": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_isDynamic",
+                            "type": "bool",
+                            "Physics_Component/pc_isDynamic": true
+                        },
+                        {
+                            "name": "Physics_Component/pc_isKinematic",
+                            "type": "bool",
+                            "Physics_Component/pc_isKinematic": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_ignoreCollisionResponse",
+                            "type": "bool",
+                            "Physics_Component/pc_ignoreCollisionResponse": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_objectType",
+                            "type": "int",
+                            "Physics_Component/pc_objectType": 0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 8,
+                    "Properties": []
+                }
+            ]
+        },
+        {
+            "EntityID": "Point Light",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 7.267838954925537,
+                            "z": 8.481820106506348
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 0.25,
+                            "y": 0.25,
+                            "z": 0.25
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 3,
+                    "Properties": [
+                        {
+                            "name": "Light_Component/Color",
+                            "type": "vector3",
+                            "x": 10.0,
+                            "y": 10.0,
+                            "z": 10.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "floorA_1",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": -4.791317462921143,
+                            "y": 0.18516165018081666,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 5,
+                    "Properties": [
+                        {
+                            "name": "Static_Mesh_Component/directory",
+                            "type": "string",
+                            "Static_Mesh_Component/directory": "m_tiles_1_3x3.fbx"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "floorA_2",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 4.749679088592529,
+                            "y": 0.18516165018081666,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 5,
+                    "Properties": [
+                        {
+                            "name": "Static_Mesh_Component/directory",
+                            "type": "string",
+                            "Static_Mesh_Component/directory": "m_tiles_1_3x3.fbx"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "floorA_3",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.18516165018081666,
+                            "z": 4.786648750305176
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 5,
+                    "Properties": [
+                        {
+                            "name": "Static_Mesh_Component/directory",
+                            "type": "string",
+                            "Static_Mesh_Component/directory": "m_tiles_1_3x3.fbx"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "floorA_4",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 4.757920742034912,
+                            "y": 0.18516165018081666,
+                            "z": 4.785865783691406
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 5,
+                    "Properties": [
+                        {
+                            "name": "Static_Mesh_Component/directory",
+                            "type": "string",
+                            "Static_Mesh_Component/directory": "m_tiles_1_3x3.fbx"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "floorA_5",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": -4.78897762298584,
+                            "y": 0.18516165018081666,
+                            "z": 4.782617568969727
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 5,
+                    "Properties": [
+                        {
+                            "name": "Static_Mesh_Component/directory",
+                            "type": "string",
+                            "Static_Mesh_Component/directory": "m_tiles_1_3x3.fbx"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "floorA_6",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.18516165018081666,
+                            "z": -4.783999919891357
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 5,
+                    "Properties": [
+                        {
+                            "name": "Static_Mesh_Component/directory",
+                            "type": "string",
+                            "Static_Mesh_Component/directory": "m_tiles_1_3x3.fbx"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "floorA_7",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": -4.783392906188965,
+                            "y": 0.18516165018081666,
+                            "z": -4.776700496673584
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 5,
+                    "Properties": [
+                        {
+                            "name": "Static_Mesh_Component/directory",
+                            "type": "string",
+                            "Static_Mesh_Component/directory": "m_tiles_1_3x3.fbx"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "floorA_8",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 4.759833812713623,
+                            "y": 0.18516165018081666,
+                            "z": -4.779797554016113
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 5,
+                    "Properties": [
+                        {
+                            "name": "Static_Mesh_Component/directory",
+                            "type": "string",
+                            "Static_Mesh_Component/directory": "m_tiles_1_3x3.fbx"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "floorA_9",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": -0.01604616641998291,
+                            "y": 0.18516165018081666,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 5,
+                    "Properties": [
+                        {
+                            "name": "Static_Mesh_Component/directory",
+                            "type": "string",
+                            "Static_Mesh_Component/directory": "m_tiles_1_3x3.fbx"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "floorA_collider",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": -1.323721170425415,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 0,
+                    "Properties": [
+                        {
+                            "name": "Physics_Component/pc_linearVelocity",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_angularVelocity",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_force",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_impulse",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_torque",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_gravityDirection",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": -1.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_faceDirection",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbCenter",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbScale",
+                            "type": "vector3",
+                            "x": 14.399999618530274,
+                            "y": 1.600000023841858,
+                            "z": 14.399999618530274
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbOffset",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 2.3399999141693117,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_mass",
+                            "type": "f32",
+                            "Physics_Component/pc_mass": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_friction",
+                            "type": "f32",
+                            "Physics_Component/pc_friction": 0.5
+                        },
+                        {
+                            "name": "Physics_Component/pc_restitution",
+                            "type": "f32",
+                            "Physics_Component/pc_restitution": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_solveTime",
+                            "type": "f32",
+                            "Physics_Component/pc_solveTime": 0.01666666753590107
+                        },
+                        {
+                            "name": "Physics_Component/pc_hasFriction",
+                            "type": "bool",
+                            "Physics_Component/pc_hasFriction": true
+                        },
+                        {
+                            "name": "Physics_Component/pc_hasGravity",
+                            "type": "bool",
+                            "Physics_Component/pc_hasGravity": true
+                        },
+                        {
+                            "name": "Physics_Component/pc_collisionFlag",
+                            "type": "bool",
+                            "Physics_Component/pc_collisionFlag": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_isStatic",
+                            "type": "bool",
+                            "Physics_Component/pc_isStatic": true
+                        },
+                        {
+                            "name": "Physics_Component/pc_isDynamic",
+                            "type": "bool",
+                            "Physics_Component/pc_isDynamic": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_isKinematic",
+                            "type": "bool",
+                            "Physics_Component/pc_isKinematic": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_ignoreCollisionResponse",
+                            "type": "bool",
+                            "Physics_Component/pc_ignoreCollisionResponse": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_objectType",
+                            "type": "int",
+                            "Physics_Component/pc_objectType": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "floorB_1",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.18516165018081666,
+                            "z": -27.25067901611328
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 5,
+                    "Properties": [
+                        {
+                            "name": "Static_Mesh_Component/directory",
+                            "type": "string",
+                            "Static_Mesh_Component/directory": "m_tiles_1_3x3.fbx"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "floorB_2",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": -4.7829999923706059,
+                            "y": 0.18516165018081666,
+                            "z": -27.23682403564453
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 5,
+                    "Properties": [
+                        {
+                            "name": "Static_Mesh_Component/directory",
+                            "type": "string",
+                            "Static_Mesh_Component/directory": "m_tiles_1_3x3.fbx"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "floorB_3",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 4.760000228881836,
+                            "y": 0.18516165018081666,
+                            "z": -27.239057540893556
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 5,
+                    "Properties": [
+                        {
+                            "name": "Static_Mesh_Component/directory",
+                            "type": "string",
+                            "Static_Mesh_Component/directory": "m_tiles_1_3x3.fbx"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "floorB_4",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": -0.015382051467895508,
+                            "y": 0.18516165018081666,
+                            "z": -32.04869842529297
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 5,
+                    "Properties": [
+                        {
+                            "name": "Static_Mesh_Component/directory",
+                            "type": "string",
+                            "Static_Mesh_Component/directory": "m_tiles_1_3x3.fbx"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "floorB_5",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": -4.804632186889648,
+                            "y": 0.18516165018081666,
+                            "z": -32.02274703979492
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 5,
+                    "Properties": [
+                        {
+                            "name": "Static_Mesh_Component/directory",
+                            "type": "string",
+                            "Static_Mesh_Component/directory": "m_tiles_1_3x3.fbx"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "floorB_6",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 4.760000228881836,
+                            "y": 0.18516165018081666,
+                            "z": -32.02012252807617
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 5,
+                    "Properties": [
+                        {
+                            "name": "Static_Mesh_Component/directory",
+                            "type": "string",
+                            "Static_Mesh_Component/directory": "m_tiles_1_3x3.fbx"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "floorB_7",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.18516165018081666,
+                            "z": -36.81093978881836
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 5,
+                    "Properties": [
+                        {
+                            "name": "Static_Mesh_Component/directory",
+                            "type": "string",
+                            "Static_Mesh_Component/directory": "m_tiles_1_3x3.fbx"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "floorB_8",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": -4.781448841094971,
+                            "y": 0.18516165018081666,
+                            "z": -36.78881072998047
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 5,
+                    "Properties": [
+                        {
+                            "name": "Static_Mesh_Component/directory",
+                            "type": "string",
+                            "Static_Mesh_Component/directory": "m_tiles_1_3x3.fbx"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "floorB_9",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 4.760000228881836,
+                            "y": 0.18516165018081666,
+                            "z": -36.8055305480957
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 5,
+                    "Properties": [
+                        {
+                            "name": "Static_Mesh_Component/directory",
+                            "type": "string",
+                            "Static_Mesh_Component/directory": "m_tiles_1_3x3.fbx"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "floorB_collider",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": -0.009483695030212403,
+                            "y": -1.323721170425415,
+                            "z": -31.988000869750978
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 0,
+                    "Properties": [
+                        {
+                            "name": "Physics_Component/pc_linearVelocity",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_angularVelocity",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_force",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_impulse",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_torque",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_gravityDirection",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": -1.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_faceDirection",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbCenter",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbScale",
+                            "type": "vector3",
+                            "x": 14.399999618530274,
+                            "y": 1.600000023841858,
+                            "z": 14.399999618530274
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbOffset",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 2.3399999141693117,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_mass",
+                            "type": "f32",
+                            "Physics_Component/pc_mass": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_friction",
+                            "type": "f32",
+                            "Physics_Component/pc_friction": 0.5
+                        },
+                        {
+                            "name": "Physics_Component/pc_restitution",
+                            "type": "f32",
+                            "Physics_Component/pc_restitution": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_solveTime",
+                            "type": "f32",
+                            "Physics_Component/pc_solveTime": 0.01666666753590107
+                        },
+                        {
+                            "name": "Physics_Component/pc_hasFriction",
+                            "type": "bool",
+                            "Physics_Component/pc_hasFriction": true
+                        },
+                        {
+                            "name": "Physics_Component/pc_hasGravity",
+                            "type": "bool",
+                            "Physics_Component/pc_hasGravity": true
+                        },
+                        {
+                            "name": "Physics_Component/pc_collisionFlag",
+                            "type": "bool",
+                            "Physics_Component/pc_collisionFlag": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_isStatic",
+                            "type": "bool",
+                            "Physics_Component/pc_isStatic": true
+                        },
+                        {
+                            "name": "Physics_Component/pc_isDynamic",
+                            "type": "bool",
+                            "Physics_Component/pc_isDynamic": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_isKinematic",
+                            "type": "bool",
+                            "Physics_Component/pc_isKinematic": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_ignoreCollisionResponse",
+                            "type": "bool",
+                            "Physics_Component/pc_ignoreCollisionResponse": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_objectType",
+                            "type": "int",
+                            "Physics_Component/pc_objectType": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "source block",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.1088847815990448,
+                            "y": 0.28432321548461916,
+                            "z": -8.029953956604004
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 5,
+                    "Properties": [
+                        {
+                            "name": "Static_Mesh_Component/directory",
+                            "type": "string",
+                            "Static_Mesh_Component/directory": "bridge_source.fbx"
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 0,
+                    "Properties": [
+                        {
+                            "name": "Physics_Component/pc_linearVelocity",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_angularVelocity",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_force",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_impulse",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_torque",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_gravityDirection",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": -1.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_faceDirection",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbCenter",
+                            "type": "vector3",
+                            "x": 7.980184555053711,
+                            "y": 0.20681136846542359,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbScale",
+                            "type": "vector3",
+                            "x": 1.600000023841858,
+                            "y": 1.600000023841858,
+                            "z": 1.600000023841858
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbOffset",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.7900000214576721,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_mass",
+                            "type": "f32",
+                            "Physics_Component/pc_mass": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_friction",
+                            "type": "f32",
+                            "Physics_Component/pc_friction": 0.5
+                        },
+                        {
+                            "name": "Physics_Component/pc_restitution",
+                            "type": "f32",
+                            "Physics_Component/pc_restitution": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_solveTime",
+                            "type": "f32",
+                            "Physics_Component/pc_solveTime": 0.01666666753590107
+                        },
+                        {
+                            "name": "Physics_Component/pc_hasFriction",
+                            "type": "bool",
+                            "Physics_Component/pc_hasFriction": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_hasGravity",
+                            "type": "bool",
+                            "Physics_Component/pc_hasGravity": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_collisionFlag",
+                            "type": "bool",
+                            "Physics_Component/pc_collisionFlag": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_isStatic",
+                            "type": "bool",
+                            "Physics_Component/pc_isStatic": true
+                        },
+                        {
+                            "name": "Physics_Component/pc_isDynamic",
+                            "type": "bool",
+                            "Physics_Component/pc_isDynamic": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_isKinematic",
+                            "type": "bool",
+                            "Physics_Component/pc_isKinematic": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_ignoreCollisionResponse",
+                            "type": "bool",
+                            "Physics_Component/pc_ignoreCollisionResponse": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_objectType",
+                            "type": "int",
+                            "Physics_Component/pc_objectType": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "bridge input object",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 3.2563135623931886,
+                            "y": 1.9700289964675904,
+                            "z": -6.513400077819824
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 5,
+                    "Properties": [
+                        {
+                            "name": "Static_Mesh_Component/directory",
+                            "type": "string",
+                            "Static_Mesh_Component/directory": "Insert_Node.fbx"
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 0,
+                    "Properties": [
+                        {
+                            "name": "Physics_Component/pc_linearVelocity",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_angularVelocity",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_force",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_impulse",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_torque",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_gravityDirection",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": -1.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_faceDirection",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbCenter",
+                            "type": "vector3",
+                            "x": 6.445265769958496,
+                            "y": 1.787882924079895,
+                            "z": 3.2649760246276857
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbScale",
+                            "type": "vector3",
+                            "x": 0.5299999713897705,
+                            "y": 1.600000023841858,
+                            "z": 0.6399999856948853
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbOffset",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.6899999976158142,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_mass",
+                            "type": "f32",
+                            "Physics_Component/pc_mass": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_friction",
+                            "type": "f32",
+                            "Physics_Component/pc_friction": 0.5
+                        },
+                        {
+                            "name": "Physics_Component/pc_restitution",
+                            "type": "f32",
+                            "Physics_Component/pc_restitution": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_solveTime",
+                            "type": "f32",
+                            "Physics_Component/pc_solveTime": 0.01666666753590107
+                        },
+                        {
+                            "name": "Physics_Component/pc_hasFriction",
+                            "type": "bool",
+                            "Physics_Component/pc_hasFriction": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_hasGravity",
+                            "type": "bool",
+                            "Physics_Component/pc_hasGravity": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_collisionFlag",
+                            "type": "bool",
+                            "Physics_Component/pc_collisionFlag": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_isStatic",
+                            "type": "bool",
+                            "Physics_Component/pc_isStatic": true
+                        },
+                        {
+                            "name": "Physics_Component/pc_isDynamic",
+                            "type": "bool",
+                            "Physics_Component/pc_isDynamic": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_isKinematic",
+                            "type": "bool",
+                            "Physics_Component/pc_isKinematic": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_ignoreCollisionResponse",
+                            "type": "bool",
+                            "Physics_Component/pc_ignoreCollisionResponse": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_objectType",
+                            "type": "int",
+                            "Physics_Component/pc_objectType": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "bridge input",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 3.25600004196167,
+                            "y": 1.9700000286102296,
+                            "z": -6.513000011444092
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 0,
+                    "Properties": [
+                        {
+                            "name": "Physics_Component/pc_linearVelocity",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_angularVelocity",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_force",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_impulse",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_torque",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_gravityDirection",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": -1.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_faceDirection",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbCenter",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbScale",
+                            "type": "vector3",
+                            "x": 1.600000023841858,
+                            "y": 1.600000023841858,
+                            "z": 1.600000023841858
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbOffset",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.6700000166893005,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_mass",
+                            "type": "f32",
+                            "Physics_Component/pc_mass": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_friction",
+                            "type": "f32",
+                            "Physics_Component/pc_friction": 0.5
+                        },
+                        {
+                            "name": "Physics_Component/pc_restitution",
+                            "type": "f32",
+                            "Physics_Component/pc_restitution": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_solveTime",
+                            "type": "f32",
+                            "Physics_Component/pc_solveTime": 0.01666666753590107
+                        },
+                        {
+                            "name": "Physics_Component/pc_hasFriction",
+                            "type": "bool",
+                            "Physics_Component/pc_hasFriction": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_hasGravity",
+                            "type": "bool",
+                            "Physics_Component/pc_hasGravity": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_collisionFlag",
+                            "type": "bool",
+                            "Physics_Component/pc_collisionFlag": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_isStatic",
+                            "type": "bool",
+                            "Physics_Component/pc_isStatic": true
+                        },
+                        {
+                            "name": "Physics_Component/pc_isDynamic",
+                            "type": "bool",
+                            "Physics_Component/pc_isDynamic": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_isKinematic",
+                            "type": "bool",
+                            "Physics_Component/pc_isKinematic": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_ignoreCollisionResponse",
+                            "type": "bool",
+                            "Physics_Component/pc_ignoreCollisionResponse": true
+                        },
+                        {
+                            "name": "Physics_Component/pc_objectType",
+                            "type": "int",
+                            "Physics_Component/pc_objectType": 0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 4,
+                    "Properties": [
+                        {
+                            "name": "Script_Component/ModuleName",
+                            "type": "string",
+                            "Script_Component/ModuleName": "BridgeInput.cs"
+                        },
+                        {
+                            "name": "Script_Component/Active",
+                            "type": "bool",
+                            "Script_Component/Active": true
+                        },
+                        {
+                            "name": "Script_Component/ScripRef",
+                            "type": "ScripRef",
+                            "ScriptName": "BridgeInput.cs",
+                            "StoredFields": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "Data_Blue",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": -5.481652736663818,
+                            "y": 2.316917896270752,
+                            "z": 5.753135681152344
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 0.5,
+                            "y": 0.5,
+                            "z": 0.5
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 0,
+                    "Properties": [
+                        {
+                            "name": "Physics_Component/pc_linearVelocity",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_angularVelocity",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_force",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_impulse",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_torque",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_gravityDirection",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_faceDirection",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbCenter",
+                            "type": "vector3",
+                            "x": -34.417686462402347,
+                            "y": 0.0,
+                            "z": 69.48389434814453
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbScale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbOffset",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_mass",
+                            "type": "f32",
+                            "Physics_Component/pc_mass": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_friction",
+                            "type": "f32",
+                            "Physics_Component/pc_friction": 0.5
+                        },
+                        {
+                            "name": "Physics_Component/pc_restitution",
+                            "type": "f32",
+                            "Physics_Component/pc_restitution": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_solveTime",
+                            "type": "f32",
+                            "Physics_Component/pc_solveTime": 0.01666666753590107
+                        },
+                        {
+                            "name": "Physics_Component/pc_hasFriction",
+                            "type": "bool",
+                            "Physics_Component/pc_hasFriction": true
+                        },
+                        {
+                            "name": "Physics_Component/pc_hasGravity",
+                            "type": "bool",
+                            "Physics_Component/pc_hasGravity": true
+                        },
+                        {
+                            "name": "Physics_Component/pc_collisionFlag",
+                            "type": "bool",
+                            "Physics_Component/pc_collisionFlag": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_isStatic",
+                            "type": "bool",
+                            "Physics_Component/pc_isStatic": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_isDynamic",
+                            "type": "bool",
+                            "Physics_Component/pc_isDynamic": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_isKinematic",
+                            "type": "bool",
+                            "Physics_Component/pc_isKinematic": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_ignoreCollisionResponse",
+                            "type": "bool",
+                            "Physics_Component/pc_ignoreCollisionResponse": true
+                        },
+                        {
+                            "name": "Physics_Component/pc_objectType",
+                            "type": "int",
+                            "Physics_Component/pc_objectType": 0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 8,
+                    "Properties": []
+                },
+                {
+                    "ComponentType": 4,
+                    "Properties": [
+                        {
+                            "name": "Script_Component/ModuleName",
+                            "type": "string",
+                            "Script_Component/ModuleName": "VirusScript.cs"
+                        },
+                        {
+                            "name": "Script_Component/Active",
+                            "type": "bool",
+                            "Script_Component/Active": true
+                        },
+                        {
+                            "name": "Script_Component/ScripRef",
+                            "type": "ScripRef",
+                            "ScriptName": "VirusScript.cs",
+                            "StoredFields": [
+                                {
+                                    "name": "order",
+                                    "typename": "System.Int32",
+                                    "type": 2,
+                                    "data": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 5,
+                    "Properties": [
+                        {
+                            "name": "Static_Mesh_Component/directory",
+                            "type": "string",
+                            "Static_Mesh_Component/directory": "data_blue.fbx"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "Data_Blue",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": -5.25339412689209,
+                            "y": 2.316917896270752,
+                            "z": -4.951419830322266
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 0.5,
+                            "y": 0.5,
+                            "z": 0.5
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 0,
+                    "Properties": [
+                        {
+                            "name": "Physics_Component/pc_linearVelocity",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_angularVelocity",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_force",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_impulse",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_torque",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_gravityDirection",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_faceDirection",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbCenter",
+                            "type": "vector3",
+                            "x": -34.417686462402347,
+                            "y": 0.0,
+                            "z": 69.48389434814453
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbScale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbOffset",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_mass",
+                            "type": "f32",
+                            "Physics_Component/pc_mass": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_friction",
+                            "type": "f32",
+                            "Physics_Component/pc_friction": 0.5
+                        },
+                        {
+                            "name": "Physics_Component/pc_restitution",
+                            "type": "f32",
+                            "Physics_Component/pc_restitution": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_solveTime",
+                            "type": "f32",
+                            "Physics_Component/pc_solveTime": 0.01666666753590107
+                        },
+                        {
+                            "name": "Physics_Component/pc_hasFriction",
+                            "type": "bool",
+                            "Physics_Component/pc_hasFriction": true
+                        },
+                        {
+                            "name": "Physics_Component/pc_hasGravity",
+                            "type": "bool",
+                            "Physics_Component/pc_hasGravity": true
+                        },
+                        {
+                            "name": "Physics_Component/pc_collisionFlag",
+                            "type": "bool",
+                            "Physics_Component/pc_collisionFlag": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_isStatic",
+                            "type": "bool",
+                            "Physics_Component/pc_isStatic": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_isDynamic",
+                            "type": "bool",
+                            "Physics_Component/pc_isDynamic": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_isKinematic",
+                            "type": "bool",
+                            "Physics_Component/pc_isKinematic": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_ignoreCollisionResponse",
+                            "type": "bool",
+                            "Physics_Component/pc_ignoreCollisionResponse": true
+                        },
+                        {
+                            "name": "Physics_Component/pc_objectType",
+                            "type": "int",
+                            "Physics_Component/pc_objectType": 0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 8,
+                    "Properties": []
+                },
+                {
+                    "ComponentType": 4,
+                    "Properties": [
+                        {
+                            "name": "Script_Component/ModuleName",
+                            "type": "string",
+                            "Script_Component/ModuleName": "VirusScript.cs"
+                        },
+                        {
+                            "name": "Script_Component/Active",
+                            "type": "bool",
+                            "Script_Component/Active": true
+                        },
+                        {
+                            "name": "Script_Component/ScripRef",
+                            "type": "ScripRef",
+                            "ScriptName": "VirusScript.cs",
+                            "StoredFields": [
+                                {
+                                    "name": "order",
+                                    "typename": "System.Int32",
+                                    "type": 2,
+                                    "data": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 5,
+                    "Properties": [
+                        {
+                            "name": "Static_Mesh_Component/directory",
+                            "type": "string",
+                            "Static_Mesh_Component/directory": "data_blue.fbx"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "Data_Red",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 5.380184173583984,
+                            "y": 2.316917896270752,
+                            "z": -4.953111171722412
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 0.5,
+                            "y": 0.5,
+                            "z": 0.5
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 0,
+                    "Properties": [
+                        {
+                            "name": "Physics_Component/pc_linearVelocity",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_angularVelocity",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_force",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_impulse",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_torque",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_gravityDirection",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_faceDirection",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbCenter",
+                            "type": "vector3",
+                            "x": -34.417686462402347,
+                            "y": 0.0,
+                            "z": 69.48389434814453
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbScale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbOffset",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_mass",
+                            "type": "f32",
+                            "Physics_Component/pc_mass": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_friction",
+                            "type": "f32",
+                            "Physics_Component/pc_friction": 0.5
+                        },
+                        {
+                            "name": "Physics_Component/pc_restitution",
+                            "type": "f32",
+                            "Physics_Component/pc_restitution": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_solveTime",
+                            "type": "f32",
+                            "Physics_Component/pc_solveTime": 0.01666666753590107
+                        },
+                        {
+                            "name": "Physics_Component/pc_hasFriction",
+                            "type": "bool",
+                            "Physics_Component/pc_hasFriction": true
+                        },
+                        {
+                            "name": "Physics_Component/pc_hasGravity",
+                            "type": "bool",
+                            "Physics_Component/pc_hasGravity": true
+                        },
+                        {
+                            "name": "Physics_Component/pc_collisionFlag",
+                            "type": "bool",
+                            "Physics_Component/pc_collisionFlag": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_isStatic",
+                            "type": "bool",
+                            "Physics_Component/pc_isStatic": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_isDynamic",
+                            "type": "bool",
+                            "Physics_Component/pc_isDynamic": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_isKinematic",
+                            "type": "bool",
+                            "Physics_Component/pc_isKinematic": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_ignoreCollisionResponse",
+                            "type": "bool",
+                            "Physics_Component/pc_ignoreCollisionResponse": true
+                        },
+                        {
+                            "name": "Physics_Component/pc_objectType",
+                            "type": "int",
+                            "Physics_Component/pc_objectType": 0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 8,
+                    "Properties": []
+                },
+                {
+                    "ComponentType": 4,
+                    "Properties": [
+                        {
+                            "name": "Script_Component/ModuleName",
+                            "type": "string",
+                            "Script_Component/ModuleName": "VirusScript.cs"
+                        },
+                        {
+                            "name": "Script_Component/Active",
+                            "type": "bool",
+                            "Script_Component/Active": true
+                        },
+                        {
+                            "name": "Script_Component/ScripRef",
+                            "type": "ScripRef",
+                            "ScriptName": "VirusScript.cs",
+                            "StoredFields": [
+                                {
+                                    "name": "order",
+                                    "typename": "System.Int32",
+                                    "type": 2,
+                                    "data": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 5,
+                    "Properties": [
+                        {
+                            "name": "Static_Mesh_Component/directory",
+                            "type": "string",
+                            "Static_Mesh_Component/directory": "data_red.fbx"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "Data_Red",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 5.470706939697266,
+                            "y": 2.316917896270752,
+                            "z": 5.73261833190918
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 0.5,
+                            "y": 0.5,
+                            "z": 0.5
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 0,
+                    "Properties": [
+                        {
+                            "name": "Physics_Component/pc_linearVelocity",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_angularVelocity",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_force",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_impulse",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_torque",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_gravityDirection",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_faceDirection",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbCenter",
+                            "type": "vector3",
+                            "x": -34.417686462402347,
+                            "y": 0.0,
+                            "z": 69.48389434814453
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbScale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbOffset",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_mass",
+                            "type": "f32",
+                            "Physics_Component/pc_mass": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_friction",
+                            "type": "f32",
+                            "Physics_Component/pc_friction": 0.5
+                        },
+                        {
+                            "name": "Physics_Component/pc_restitution",
+                            "type": "f32",
+                            "Physics_Component/pc_restitution": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_solveTime",
+                            "type": "f32",
+                            "Physics_Component/pc_solveTime": 0.01666666753590107
+                        },
+                        {
+                            "name": "Physics_Component/pc_hasFriction",
+                            "type": "bool",
+                            "Physics_Component/pc_hasFriction": true
+                        },
+                        {
+                            "name": "Physics_Component/pc_hasGravity",
+                            "type": "bool",
+                            "Physics_Component/pc_hasGravity": true
+                        },
+                        {
+                            "name": "Physics_Component/pc_collisionFlag",
+                            "type": "bool",
+                            "Physics_Component/pc_collisionFlag": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_isStatic",
+                            "type": "bool",
+                            "Physics_Component/pc_isStatic": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_isDynamic",
+                            "type": "bool",
+                            "Physics_Component/pc_isDynamic": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_isKinematic",
+                            "type": "bool",
+                            "Physics_Component/pc_isKinematic": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_ignoreCollisionResponse",
+                            "type": "bool",
+                            "Physics_Component/pc_ignoreCollisionResponse": true
+                        },
+                        {
+                            "name": "Physics_Component/pc_objectType",
+                            "type": "int",
+                            "Physics_Component/pc_objectType": 0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 8,
+                    "Properties": []
+                },
+                {
+                    "ComponentType": 4,
+                    "Properties": [
+                        {
+                            "name": "Script_Component/ModuleName",
+                            "type": "string",
+                            "Script_Component/ModuleName": "VirusScript.cs"
+                        },
+                        {
+                            "name": "Script_Component/Active",
+                            "type": "bool",
+                            "Script_Component/Active": true
+                        },
+                        {
+                            "name": "Script_Component/ScripRef",
+                            "type": "ScripRef",
+                            "ScriptName": "VirusScript.cs",
+                            "StoredFields": [
+                                {
+                                    "name": "order",
+                                    "typename": "System.Int32",
+                                    "type": 2,
+                                    "data": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 5,
+                    "Properties": [
+                        {
+                            "name": "Static_Mesh_Component/directory",
+                            "type": "string",
+                            "Static_Mesh_Component/directory": "data_red.fbx"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "Data_Yellow",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": -3.8197646141052248,
+                            "y": 2.316917896270752,
+                            "z": 0.7328764200210571
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 0.5,
+                            "y": 0.5,
+                            "z": 0.5
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 0,
+                    "Properties": [
+                        {
+                            "name": "Physics_Component/pc_linearVelocity",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_angularVelocity",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_force",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_impulse",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_torque",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_gravityDirection",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_faceDirection",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbCenter",
+                            "type": "vector3",
+                            "x": -34.417686462402347,
+                            "y": 0.0,
+                            "z": 69.48389434814453
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbScale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbOffset",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_mass",
+                            "type": "f32",
+                            "Physics_Component/pc_mass": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_friction",
+                            "type": "f32",
+                            "Physics_Component/pc_friction": 0.5
+                        },
+                        {
+                            "name": "Physics_Component/pc_restitution",
+                            "type": "f32",
+                            "Physics_Component/pc_restitution": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_solveTime",
+                            "type": "f32",
+                            "Physics_Component/pc_solveTime": 0.01666666753590107
+                        },
+                        {
+                            "name": "Physics_Component/pc_hasFriction",
+                            "type": "bool",
+                            "Physics_Component/pc_hasFriction": true
+                        },
+                        {
+                            "name": "Physics_Component/pc_hasGravity",
+                            "type": "bool",
+                            "Physics_Component/pc_hasGravity": true
+                        },
+                        {
+                            "name": "Physics_Component/pc_collisionFlag",
+                            "type": "bool",
+                            "Physics_Component/pc_collisionFlag": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_isStatic",
+                            "type": "bool",
+                            "Physics_Component/pc_isStatic": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_isDynamic",
+                            "type": "bool",
+                            "Physics_Component/pc_isDynamic": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_isKinematic",
+                            "type": "bool",
+                            "Physics_Component/pc_isKinematic": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_ignoreCollisionResponse",
+                            "type": "bool",
+                            "Physics_Component/pc_ignoreCollisionResponse": true
+                        },
+                        {
+                            "name": "Physics_Component/pc_objectType",
+                            "type": "int",
+                            "Physics_Component/pc_objectType": 0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 8,
+                    "Properties": []
+                },
+                {
+                    "ComponentType": 4,
+                    "Properties": [
+                        {
+                            "name": "Script_Component/ModuleName",
+                            "type": "string",
+                            "Script_Component/ModuleName": "VirusScript.cs"
+                        },
+                        {
+                            "name": "Script_Component/Active",
+                            "type": "bool",
+                            "Script_Component/Active": true
+                        },
+                        {
+                            "name": "Script_Component/ScripRef",
+                            "type": "ScripRef",
+                            "ScriptName": "VirusScript.cs",
+                            "StoredFields": [
+                                {
+                                    "name": "order",
+                                    "typename": "System.Int32",
+                                    "type": 2,
+                                    "data": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 5,
+                    "Properties": [
+                        {
+                            "name": "Static_Mesh_Component/directory",
+                            "type": "string",
+                            "Static_Mesh_Component/directory": "data_yellow.fbx"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "Data_Yellow",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 3.6575937271118166,
+                            "y": 2.316917896270752,
+                            "z": 0.6764956712722778
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 0.5,
+                            "y": 0.5,
+                            "z": 0.5
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 0,
+                    "Properties": [
+                        {
+                            "name": "Physics_Component/pc_linearVelocity",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_angularVelocity",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_force",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_impulse",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_torque",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_gravityDirection",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_faceDirection",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbCenter",
+                            "type": "vector3",
+                            "x": -34.417686462402347,
+                            "y": 0.0,
+                            "z": 69.48389434814453
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbScale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbOffset",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_mass",
+                            "type": "f32",
+                            "Physics_Component/pc_mass": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_friction",
+                            "type": "f32",
+                            "Physics_Component/pc_friction": 0.5
+                        },
+                        {
+                            "name": "Physics_Component/pc_restitution",
+                            "type": "f32",
+                            "Physics_Component/pc_restitution": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_solveTime",
+                            "type": "f32",
+                            "Physics_Component/pc_solveTime": 0.01666666753590107
+                        },
+                        {
+                            "name": "Physics_Component/pc_hasFriction",
+                            "type": "bool",
+                            "Physics_Component/pc_hasFriction": true
+                        },
+                        {
+                            "name": "Physics_Component/pc_hasGravity",
+                            "type": "bool",
+                            "Physics_Component/pc_hasGravity": true
+                        },
+                        {
+                            "name": "Physics_Component/pc_collisionFlag",
+                            "type": "bool",
+                            "Physics_Component/pc_collisionFlag": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_isStatic",
+                            "type": "bool",
+                            "Physics_Component/pc_isStatic": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_isDynamic",
+                            "type": "bool",
+                            "Physics_Component/pc_isDynamic": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_isKinematic",
+                            "type": "bool",
+                            "Physics_Component/pc_isKinematic": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_ignoreCollisionResponse",
+                            "type": "bool",
+                            "Physics_Component/pc_ignoreCollisionResponse": true
+                        },
+                        {
+                            "name": "Physics_Component/pc_objectType",
+                            "type": "int",
+                            "Physics_Component/pc_objectType": 0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 8,
+                    "Properties": []
+                },
+                {
+                    "ComponentType": 4,
+                    "Properties": [
+                        {
+                            "name": "Script_Component/ModuleName",
+                            "type": "string",
+                            "Script_Component/ModuleName": "VirusScript.cs"
+                        },
+                        {
+                            "name": "Script_Component/Active",
+                            "type": "bool",
+                            "Script_Component/Active": true
+                        },
+                        {
+                            "name": "Script_Component/ScripRef",
+                            "type": "ScripRef",
+                            "ScriptName": "VirusScript.cs",
+                            "StoredFields": [
+                                {
+                                    "name": "order",
+                                    "typename": "System.Int32",
+                                    "type": 2,
+                                    "data": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 5,
+                    "Properties": [
+                        {
+                            "name": "Static_Mesh_Component/directory",
+                            "type": "string",
+                            "Static_Mesh_Component/directory": "data_yellow.fbx"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "Camera",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 7,
+                    "Properties": [
+                        {
+                            "name": "Camera_Component/Active",
+                            "type": "bool",
+                            "Camera_Component/Active": true
+                        },
+                        {
+                            "name": "Camera_Component/fov",
+                            "type": "f32",
+                            "Camera_Component/fov": 30.0
+                        },
+                        {
+                            "name": "Camera_Component/size",
+                            "type": "f32",
+                            "Camera_Component/size": 0.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 4,
+                    "Properties": [
+                        {
+                            "name": "Script_Component/ModuleName",
+                            "type": "string",
+                            "Script_Component/ModuleName": "CameraFollow.cs"
+                        },
+                        {
+                            "name": "Script_Component/Active",
+                            "type": "bool",
+                            "Script_Component/Active": true
+                        },
+                        {
+                            "name": "Script_Component/ScripRef",
+                            "type": "ScripRef",
+                            "ScriptName": "CameraFollow.cs",
+                            "StoredFields": [
+                                {
+                                    "name": "target",
+                                    "typename": "EosScriptCore.Vector3",
+                                    "type": 7,
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "source block script",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 4,
+                    "Properties": [
+                        {
+                            "name": "Script_Component/ModuleName",
+                            "type": "string",
+                            "Script_Component/ModuleName": "BridgeSource.cs"
+                        },
+                        {
+                            "name": "Script_Component/Active",
+                            "type": "bool",
+                            "Script_Component/Active": true
+                        },
+                        {
+                            "name": "Script_Component/ScripRef",
+                            "type": "ScripRef",
+                            "ScriptName": "BridgeSource.cs",
+                            "StoredFields": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "UIGreyBG",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.8999999761581421,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 0.800000011920929,
+                            "y": 0.25,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 0.4000000059604645,
+                            "y": 0.4000000059604645,
+                            "z": 0.4000000059604645
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": ""
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 4,
+                    "Properties": [
+                        {
+                            "name": "Script_Component/ModuleName",
+                            "type": "string",
+                            "Script_Component/ModuleName": "VirusReorderScript.cs"
+                        },
+                        {
+                            "name": "Script_Component/Active",
+                            "type": "bool",
+                            "Script_Component/Active": true
+                        },
+                        {
+                            "name": "Script_Component/ScripRef",
+                            "type": "ScripRef",
+                            "ScriptName": "VirusReorderScript.cs",
+                            "StoredFields": []
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 8,
+                    "Properties": []
+                }
+            ]
+        },
+        {
+            "EntityID": "UIData1",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": -0.3250001072883606,
+                            "y": 0.8899999856948853,
+                            "z": -0.10000000149011612
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 0.10000000149011612,
+                            "y": 0.17000000178813935,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 0.20000000298023225,
+                            "y": 0.20000000298023225,
+                            "z": 0.20000000298023225
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "UIData2",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": -0.19499997794628144,
+                            "y": 0.8899999856948853,
+                            "z": -0.10000000149011612
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 0.10000000149011612,
+                            "y": 0.17000000178813935,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 0.20000000298023225,
+                            "y": 0.20000000298023225,
+                            "z": 0.20000000298023225
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "UIData3",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": -0.06499996781349182,
+                            "y": 0.8899999856948853,
+                            "z": -0.10000000149011612
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 0.10000000149011612,
+                            "y": 0.17000000178813935,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 0.20000000298023225,
+                            "y": 0.20000000298023225,
+                            "z": 0.20000000298023225
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "UIData4",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.06499996036291123,
+                            "y": 0.8899999856948853,
+                            "z": -0.10000000149011612
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 0.10000000149011612,
+                            "y": 0.17000000178813935,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 0.20000000298023225,
+                            "y": 0.20000000298023225,
+                            "z": 0.20000000298023225
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "UIData5",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.19500000774860383,
+                            "y": 0.8899999856948853,
+                            "z": -0.10000000149011612
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 0.10000000149011612,
+                            "y": 0.17000000178813935,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 0.20000000298023225,
+                            "y": 0.20000000298023225,
+                            "z": 0.20000000298023225
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "UIData6",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.32500001788139346,
+                            "y": 0.8899999856948853,
+                            "z": -0.10000000149011612
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 0.10000000149011612,
+                            "y": 0.17000000178813935,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 0.20000000298023225,
+                            "y": 0.20000000298023225,
+                            "z": 0.20000000298023225
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "UIIndicator",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": false,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": -0.32499998807907107,
+                            "y": 0.8899999856948853,
+                            "z": -0.10999999940395355
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 0.10000000149011612,
+                            "y": 0.17000000178813935,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 10,
+                    "Properties": [
+                        {
+                            "name": "GUI_Component/Opacity",
+                            "type": "f32",
+                            "GUI_Component/Opacity": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/inColor",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        {
+                            "name": "GUI_Component/filePath",
+                            "type": "string",
+                            "GUI_Component/filePath": "indicator.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "Light1",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 6.915461540222168,
+                            "z": -32.63097381591797
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 3,
+                    "Properties": [
+                        {
+                            "name": "Light_Component/Color",
+                            "type": "vector3",
+                            "x": 3.9215686321258547,
+                            "y": 3.9215686321258547,
+                            "z": 3.9215686321258547
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "Light2",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 11.555859565734864,
+                            "z": -16.712308883666993
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 3,
+                    "Properties": [
+                        {
+                            "name": "Light_Component/Color",
+                            "type": "vector3",
+                            "x": 19.60784339904785,
+                            "y": 19.60784339904785,
+                            "z": 19.60784339904785
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

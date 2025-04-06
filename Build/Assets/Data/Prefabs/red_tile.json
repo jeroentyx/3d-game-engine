@@ -1,0 +1,166 @@
+{
+  "PrefabName": "red-tile",
+  "Components": [
+    {
+      "ComponentType": 1,
+      "Properties": [
+        {
+          "name": "Transform_Component/Translation",
+          "type": "vector3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "Transform_Component/Rotation",
+          "type": "vector3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "Transform_Component/Scale",
+          "type": "vector3",
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      ]
+    },
+    {
+      "ComponentType": 5,
+      "Properties": [
+        {
+          "name": "Static_Mesh_Component/directory",
+          "type": "string",
+          "Static_Mesh_Component/directory": "CyberTiles_-_Red.fbx"
+        }
+      ]
+    },
+    {
+      "ComponentType": 0,
+      "Properties": [
+        {
+          "name": "Physics_Component/pc_linearVelocity",
+          "type": "vector3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "Physics_Component/pc_angularVelocity",
+          "type": "vector3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "Physics_Component/pc_force",
+          "type": "vector3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "Physics_Component/pc_impulse",
+          "type": "vector3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "Physics_Component/pc_torque",
+          "type": "vector3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "Physics_Component/pc_gravityDirection",
+          "type": "vector3",
+          "x": 0.0,
+          "y": -1.0,
+          "z": 0.0
+        },
+        {
+          "name": "Physics_Component/pc_faceDirection",
+          "type": "vector3",
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "Physics_Component/pc_aabbCenter",
+          "type": "vector3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "Physics_Component/pc_aabbScale",
+          "type": "vector3",
+          "x": 1.600000023841858,
+          "y": 1.600000023841858,
+          "z": 1.600000023841858
+        },
+        {
+          "name": "Physics_Component/pc_aabbOffset",
+          "type": "vector3",
+          "x": 0.0,
+          "y": 0.7799999713897705,
+          "z": 0.0
+        },
+        {
+          "name": "Physics_Component/pc_mass",
+          "type": "f32",
+          "Physics_Component/pc_mass": 0.0
+        },
+        {
+          "name": "Physics_Component/pc_friction",
+          "type": "f32",
+          "Physics_Component/pc_friction": 0.5
+        },
+        {
+          "name": "Physics_Component/pc_restitution",
+          "type": "f32",
+          "Physics_Component/pc_restitution": 0.0
+        },
+        {
+          "name": "Physics_Component/pc_solveTime",
+          "type": "f32",
+          "Physics_Component/pc_solveTime": 0.01666666753590107
+        },
+        {
+          "name": "Physics_Component/pc_hasFriction",
+          "type": "bool",
+          "Physics_Component/pc_hasFriction": false
+        },
+        {
+          "name": "Physics_Component/pc_hasGravity",
+          "type": "bool",
+          "Physics_Component/pc_hasGravity": false
+        },
+        {
+          "name": "Physics_Component/pc_collisionFlag",
+          "type": "bool",
+          "Physics_Component/pc_collisionFlag": false
+        },
+        {
+          "name": "Physics_Component/pc_isStatic",
+          "type": "bool",
+          "Physics_Component/pc_isStatic": true
+        },
+        {
+          "name": "Physics_Component/pc_ignoreCollisionResponse",
+          "type": "bool",
+          "Physics_Component/pc_ignoreCollisionResponse": false
+        },
+        {
+          "name": "Physics_Component/pc_objectType",
+          "type": "int",
+          "Physics_Component/pc_objectType": 0
+        }
+      ]
+    }
+  ]
+}

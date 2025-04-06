@@ -1,0 +1,53 @@
+{
+  "PrefabName": "UIData3",
+  "Components": [
+    {
+      "ComponentType": 1,
+      "Properties": [
+        {
+          "name": "Transform_Component/Translation",
+          "type": "vector3",
+          "x": -0.06499996781349182,
+          "y": 0.8899999856948853,
+          "z": -0.10000000149011612
+        },
+        {
+          "name": "Transform_Component/Rotation",
+          "type": "vector3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "Transform_Component/Scale",
+          "type": "vector3",
+          "x": 0.10000000149011612,
+          "y": 0.17000000178813935,
+          "z": 1.0
+        }
+      ]
+    },
+    {
+      "ComponentType": 10,
+      "Properties": [
+        {
+          "name": "GUI_Component/Opacity",
+          "type": "f32",
+          "GUI_Component/Opacity": 1.0
+        },
+        {
+          "name": "GUI_Component/inColor",
+          "type": "vector3",
+          "x": 0.20000000298023225,
+          "y": 0.20000000298023225,
+          "z": 0.20000000298023225
+        },
+        {
+          "name": "GUI_Component/filePath",
+          "type": "string",
+          "GUI_Component/filePath": ""
+        }
+      ]
+    }
+  ]
+}

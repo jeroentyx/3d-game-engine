@@ -1,0 +1,191 @@
+{
+    "PrefabName": "prefab_Data_Yellow",
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 5,
+                    "Properties": [
+                        {
+                            "name": "Static_Mesh_Component/directory",
+                            "type": "string",
+                            "Static_Mesh_Component/directory": "data_yellow.fbx"
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 0,
+                    "Properties": [
+                        {
+                            "name": "Physics_Component/pc_linearVelocity",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_angularVelocity",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_force",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_impulse",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_torque",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_gravityDirection",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": -1.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_faceDirection",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbCenter",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbScale",
+                            "type": "vector3",
+                            "x": 0.8700000047683716,
+                            "y": 0.8700000047683716,
+                            "z": 0.8700000047683716
+                        },
+                        {
+                            "name": "Physics_Component/pc_aabbOffset",
+                            "type": "vector3",
+                            "x": -0.029999999329447748,
+                            "y": 0.3400000035762787,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_mass",
+                            "type": "f32",
+                            "Physics_Component/pc_mass": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_friction",
+                            "type": "f32",
+                            "Physics_Component/pc_friction": 0.5
+                        },
+                        {
+                            "name": "Physics_Component/pc_restitution",
+                            "type": "f32",
+                            "Physics_Component/pc_restitution": 0.0
+                        },
+                        {
+                            "name": "Physics_Component/pc_solveTime",
+                            "type": "f32",
+                            "Physics_Component/pc_solveTime": 0.01666666753590107
+                        },
+                        {
+                            "name": "Physics_Component/pc_hasFriction",
+                            "type": "bool",
+                            "Physics_Component/pc_hasFriction": true
+                        },
+                        {
+                            "name": "Physics_Component/pc_hasGravity",
+                            "type": "bool",
+                            "Physics_Component/pc_hasGravity": true
+                        },
+                        {
+                            "name": "Physics_Component/pc_collisionFlag",
+                            "type": "bool",
+                            "Physics_Component/pc_collisionFlag": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_isStatic",
+                            "type": "bool",
+                            "Physics_Component/pc_isStatic": false
+                        },
+                        {
+                            "name": "Physics_Component/pc_ignoreCollisionResponse",
+                            "type": "bool",
+                            "Physics_Component/pc_ignoreCollisionResponse": true
+                        },
+                        {
+                            "name": "Physics_Component/pc_objectType",
+                            "type": "int",
+                            "Physics_Component/pc_objectType": 0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 8,
+                    "Properties": []
+                },
+                {
+                    "ComponentType": 4,
+                    "Properties": [
+                        {
+                            "name": "Script_Component/ModuleName",
+                            "type": "string",
+                            "Script_Component/ModuleName": "VirusScript.cs"
+                        },
+                        {
+                            "name": "Script_Component/Active",
+                            "type": "bool",
+                            "Script_Component/Active": true
+                        },
+                        {
+                            "name": "Script_Component/ScripRef",
+                            "type": "ScripRef",
+                            "Script_Component/ScripRef": 0
+                        }
+                    ]
+                }
+            ]
+       
+}

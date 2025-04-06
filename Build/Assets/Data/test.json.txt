@@ -1,0 +1,134 @@
+{
+    "NumOfEntities": [
+        {
+            "EntityID": "Entity 0",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.31642329692840578,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 6,
+                    "Properties": [
+                        {
+                            "name": "Animated_Mesh_Component/meshDirectory",
+                            "type": "string",
+                            "Animated_Mesh_Component/meshDirectory": ""
+                        },
+                        {
+                            "name": "Animated_Mesh_Component/state",
+                            "type": "A_State",
+                            "States": [
+                                {
+                                    "StateName": "Walk",
+                                    "Mode": 0,
+                                    "animTrackName": "Hello"
+                                },
+                                {
+                                    "StateName": "Idle",
+                                    "Mode": 0,
+                                    "animTrackName": "SurgeIdle"
+                                },
+                                {
+                                    "StateName": "Run",
+                                    "Mode": 1,
+                                    "animTrackName": "SurgeRun"
+                                },
+                                {
+                                    "StateName": "Death",
+                                    "Mode": 0,
+                                    "animTrackName": "SurgeDeath"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EntityID": "Entity 1",
+            "parentID": 4294967295,
+            "parentGen": 4294967295,
+            "Active": true,
+            "Components": [
+                {
+                    "ComponentType": 1,
+                    "Properties": [
+                        {
+                            "name": "Transform_Component/Translation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Rotation",
+                            "type": "vector3",
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        {
+                            "name": "Transform_Component/Scale",
+                            "type": "vector3",
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    ]
+                },
+                {
+                    "ComponentType": 6,
+                    "Properties": [
+                        {
+                            "name": "Animated_Mesh_Component/meshDirectory",
+                            "type": "string",
+                            "Animated_Mesh_Component/meshDirectory": ""
+                        },
+                        {
+                            "name": "Animated_Mesh_Component/state",
+                            "type": "A_State",
+                            "States": [
+                                {
+                                    "StateName": "Idle",
+                                    "Mode": 0,
+                                    "animTrackName": "DataIdle"
+                                },
+                                {
+                                    "StateName": "Death",
+                                    "Mode": 0,
+                                    "animTrackName": "DataDeath"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

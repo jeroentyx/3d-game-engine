@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>freetype.lib;fmod_vc.lib;glew32s.lib;glfw3.lib;opengl32.lib;assimp-vc142-mtd.lib;mono-2.0-sgen.lib;TracyProfiler.lib;soil2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\dependencies\freetype\lib;$(SolutionDir)..\dependencies\fmod\lib;$(SolutionDir)..\dependencies\Mono\lib;$(SolutionDir)..\dependencies\GL\lib;$(SolutionDir)..\dependencies\assimp\lib;$(SolutionDir)..\dependencies\imgui-1.84.2;$(SolutionDir)..\dependencies\GLFW\lib-vc2019;$(SolutionDir)..\Src;$(SolutionDir)..\dependencies\Soil2\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions> /ignore:4099 /NODEFAULTLIB:library %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\dependencies\LIONant\include;$(SolutionDir)..\dependencies\freetype\include;$(SolutionDir)..\dependencies\spdlog;$(SolutionDir)..\dependencies\fmod\include;$(SolutionDir)..\dependencies;$(SolutionDir)..\dependencies\GL;$(SolutionDir)..\dependencies\imgui-1.84.2;$(SolutionDir)..\dependencies\assimp\include;$(SolutionDir)..\;$(SolutionDir)..\dependencies\Mono\include;$(SolutionDir)..\dependencies\rapidjson;$(SolutionDir)..\dependencies\Soil2\incs;$(SolutionDir)..\dependencies\msdf-atlas-gen\msdfgen;$(SolutionDir)..\dependencies\msdf-atlas-gen\msdfgen\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WarningLevel>Level4</WarningLevel>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>copy "$(SolutionDir)..\dependencies\Mono\include\mono-2.0-sgen.dll" "$(TargetDir)mono-2.0-sgen.dll" /Y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
